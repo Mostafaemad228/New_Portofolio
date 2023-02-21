@@ -1,0 +1,907 @@
+<section class="services mt-5" id="services">
+    <br>
+    <br>
+    <br>
+<div class=" title-text col-12 text-center mt-5">
+    <h5 class=" mt-5 ">OUR DEPARTMENTS</h5>
+    <h1>Our Medical Services</h1>
+</div>
+
+<div class="container mt-3">
+    <div class="col-lg-12">
+        <!-- Nav tabs -->
+    <ul class="nav nav-tabs text-center  col-lg-12 ">
+      <li class="nav-item col-lg-2 col-md-6 col-sm-12 ">
+        <a class="nav-link active faddedlinlk py-4" data-toggle="tab" href="#Dentistry"><i class="flaticon flaticon-tooth"></i><br> Dentistry </a>
+      </li>
+      <!-- ///////// -->
+      <li class="nav-item col-lg-2 col-md-6 col-sm-12">
+        <a class="nav-link faddedlinlk  py-4" data-toggle="tab" href="#ENTSpecialists"> <i class="flaticon flaticon-ear"></i> <br>ENTSpecialists</a>
+      </li>
+    </ul>
+  <br>
+    <!-- Tab panes -->
+    <div class="tab-content mt-5">
+  
+    <!-- ///////////////////////////////// -->
+    <div id="Dentistry" class=" tab-pane active "><br>
+        <div class="row">
+            <div  class="col-lg-7 p-5 bg-primary text-light">
+                <h4 class="mt-5">Dentist with surgical mask holding
+                    scaler near patient</h4>
+                    <p class="mt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna 
+                        aliqua. Quis ipsum suspendisse ultrices gravida. 
+                        Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                        <a  class="btn btn-light about-btun text-dark  mt-5 mb-5"    href="pages/Department.html">Appointment   <i class="fa fa-arrow-right"></i> </a>
+    
+            </div>
+            <div style="background-image:url(images/gallery/department_man.png) ;" class="col-lg-5 bacimg"></div>
+
+          </div>
+    </div>
+    <!-- ///////////////////////////////// -->
+    <!-- ///////////////////////////////// -->
+    <div id="ENTSpecialists" class=" tab-pane fade"><br>
+        <div class="row">
+            <div  class="col-lg-7 p-5 bg-primary text-light">
+                <h4 class="mt-5">ENTSpecialists tempor incididunt ut labore et dolore magna
+                    scaler near patient</h4>
+                    <p class="mt-5">incididunt ut labore et dolore magna 
+                        aliqua. Quis ipsum suspendisse ultrices gravidaLorem ipsum 
+                        dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna 
+                        aliqua. Quis ipsum suspendisse s vel facilisis.</p>
+                        <a  class="btn btn-light about-btun text-dark  mt-5 mb-5"    href="pages/Department.html">Appointment    <i class="fa fa-arrow-right"></i> </a>
+    
+            </div>
+            <div style="background-image:url(images/gallery/contact_form.png) ;" class="col-lg-5 bacimg"></div>
+
+          </div>
+    </div>
+    <!-- ///////////////////////////////// -->
+  <!-- ///////////////////////////////// -->
+  <div id="Astrology" class=" tab-pane fade"><br>
+    <div class="row">
+        <div  class="col-lg-7 p-5 bg-primary text-light">
+            <h4 class="mt-5">Astrology dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor </h4>
+                <p class="mt-5"> labore et dolore magna 
+                    aliqua. Quis ipsum suspendisse ultrices gravida.
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut
+                    Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                    <a  class="btn btn-light about-btun text-dark  mt-5 mb-5"    href="pages/Department.html">Appointment   <i class="fa fa-arrow-right"></i> </a>
+
+        </div>
+        <div style="background-image:url(images/gallery/gallery1.png) ;" class="col-lg-5 bacimg"></div>
+
+      </div>
+</div>
+<!-- ///////////////////////////////// -->
+
+  <!-- ///////////////////////////////// -->
+  <div id="Cardiology" class=" tab-pane fade"><br>
+    <div class="row">
+        <div  class="col-lg-7 p-5 bg-primary text-light">
+            <h4 class="mt-5">Cardiology Quis ipsum suspendisse ultrices gravida.</h4>
+                <p class="mt-5"> consectetur sit amet,maecenas accumsan adipiscing elit, 
+                    sed do suspendisse ultrices gravida.eiusmod tempor incididunt ut labore et dolore magna 
+                    aliqua. Quis ipsum Risus commodo viverra Lorem ipsum dolor  lacus vel facilisis.</p>
+                    <a  class="btn btn-light about-btun text-dark  mt-5 mb-5"    href="pages/Department.html">Appointment   <i class="fa fa-arrow-right"></i> </a>
+
+        </div>
+        <div style="background-image:url(images/gallery/gallery3.png) ;" class="col-lg-5 bacimg"></div>
+
+      </div>
+</div>
+<!-- ///////////////////////////////// -->
+
+  <!-- ///////////////////////////////// -->
+  <div id="Neuroanatomy" class=" tab-pane fade"><br>
+    <div class="row">
+        <div  class="col-lg-7 p-5 bg-primary text-light">
+            <h4 class="mt-5">Neuroanatomy gravida. 
+                Risus commodo viverra maecenas accumsan</h4>
+                <p class="mt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna 
+                    aliqua. Quis ipsum suspendisse ultrices gravida. 
+                    Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                    <a  class="btn btn-light about-btun text-dark  mt-5 mb-5"    href="pages/Department.html">Appointment  <i class="fa fa-arrow-right"></i> </a>
+
+        </div>
+        <div style="background-image:url(images/gallery/gallery6.png) ;" class="col-lg-5 bacimg"></div>
+
+      </div>
+</div>
+<!-- ///////////////////////////////// -->
+
+  <!-- ///////////////////////////////// -->
+  <div id="BloodScreening" class=" tab-pane fade"><br>
+    <div class="row">
+        <div  class="col-lg-7 p-5 bg-primary text-light">
+            <h4 class="mt-5">Neuroanatomy gravida. 
+                Risus commodo viverra maecenas accumsan</h4>
+                <p class="mt-5">gravida. Risus commodo viverra maecenas accumsan
+                     lacus tempor incididunt  ultrices gravida. 
+                    Risus commodo viverra maecenas accumsan lacus
+                    ut labore et dolore magna 
+                    aliqua. Quis ipsum suspendisse   vel facilisis.</p>
+                    <a  class="btn btn-light about-btun text-dark  mt-5 mb-5"    href="pages/Department.html">Appointment   <i class="fa fa-arrow-right"></i> </a>
+
+        </div>
+        <div style="background-image:url(images/gallery/gallery5.png) ;" class="col-lg-5 bacimg"></div>
+
+      </div>
+</div>
+<!-- ///////////////////////////////// -->
+    </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+/* //////////////OUR GELLARY////////////// */
+/* //////////////OUR GELLARY////////////// */
+/* //////////////OUR GELLARY////////////// */
+#services{
+    width: 100%;
+    height: auto;
+    background:url(../images/gallery/department.png) no-repeat ;
+    background-size: cover; 
+}
+.title-text h5{
+    text-transform:uppercase;
+    color: #042d41;
+}
+
+.title-text h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: #35befd;
+
+}
+.nav-tabs{
+    border: none;
+    display: flex;
+    overflow: hidden;
+}
+.nav-tabs .nav-item {
+    border: none;
+    padding: 15px;
+    height: 150px;
+
+}
+.nav-tabs .nav-item a {
+
+    background-color: white;
+    color: #35befd;
+    border: none;
+    font-size: 14px;
+    
+}
+ .flaticon {
+ text-align: center!important;
+ font-size: 25px!important;   
+}
+.nav-tabs .nav-item a.active{
+    background-color: #35befd;
+    color: #fff;
+}
+.nav-tabs .nav-item a:focus{
+    background-color: #35befd;
+    color: #fff;
+}
+.bacimg{
+    width: 100%;
+    height: 500px;
+    background: no-repeat ;
+    background-size: cover;
+}
+
+
+
+
+
+// body.addEventListener("click", function () {
+  // if (Wave) {
+  //   My_breaf.style.display = "block"
+  // }
+  // else{
+  //     My_breaf.style.display = "none"
+
+  // }
+// });
+
+
+// body.addEventListener('click', function (event) {
+  // If the element on which the click event occurs is not has a class called Wave , then hide it
+  // if (event.target !== Wave ){ 
+  //       My_breaf.style.display = "none";
+  // }
+  
+// });
+
+
+
+
+
+
+
+
+
+
+
+
+
+ : 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ???????????????????????????????????! About  ?????????????????????????????????? -->
+<!-- ???????????????????????????????????! About  ?????????????????????????????????? -->
+<section class="About" id="About">
+
+    <div class="container">
+            <div class="row mt-5">
+                <div class=" text-center col-lg-12 above-inner ">
+                    <img  class="img-fluid above-img "  src="images/quote.webp" alt="">
+                    <div style="z-index: 1;" class="col-lg-11 ml-auto ">
+                        <h2 >  ABOUT US </h2>
+                        <p class=" m-auto text-left">“we try to connect you with to the most talented makeup artist ,
+                            while offering you the ability to choose the suitable makeup artist for you according to your own budget”</p>
+                        <h5 class="text-right">– glowing </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    <div class="container">
+        <div class="row about-inner">
+                <div class="col-lg-6 p-5 ">
+                    <div class="text">
+                        <h2>the center of attention</h2>
+                        <p class="" >We always get confused before every occasion, whether it is an engagement or a wedding,
+                             whatever. I wonder, we will do the makeup ourselves, or we will use makeup artists, and if we choose that 
+                             we will use makeup artists, the confusion begins again.  Hundreds of pages that do not count and we lose 
+                time and effort, hence the idea of ​​the website. We collected the largest number of
+                             makeup artists so that you can move between their pages in a flexible manner Let us help you and make it 
+                             easier and we wish you a good choice</p>
+                    </div>
+
+                    <button class=" btn butn2"> contact us </button>
+                </div>
+            <!-- ? ////////////////////////////////////////////////////////////////////// -->
+                <div class="col-lg-6">
+                    <img class="img-fluid"  src="images/download.png" alt="">
+                </div>
+            <!-- ? ////////////////////////////////////////////////////////////////////// -->
+        </div>
+    </div>
+
+</section>
+<!-- ???????????????????????????????????! About  ?????????????????????????????????? -->
+<!-- ???????????????????????????????????! About  ?????????????????????????????????? -->
+
+
+<!-- ???????????????????????????????????! why  ?????????????????????????????????? -->
+<!-- ???????????????????????????????????! why  ?????????????????????????????????? -->
+<section class="why mt-5" id="why">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 ml-auto ">
+                <div class="choose-inner">
+                    <h1>Why Choose Us?</h1>
+                    <p class="" >we have a lot of options that you can choose any one of them and the one you like
+                            <br> -we have a specific system that will help you to make sure for the artist  and the way you will pay for the service
+                            <br> -We will be in constant contact with you to solve any problem you may face, answer any inquiries and ensure that the 
+                            task is completed successfully through customer service.(chat-hotline)</p>
+                </div>
+                <div class="row ">
+                    <div class="col-lg-4 col-md-4 col-sm-12 text-center p-3">
+                        <div class="count-data">
+                            <img class="img-fluid" width="80px" height="80px" src="images/icon pngs/happy.png" alt="">
+                            <h3 class="mt-3 countNums" data-goal="500" > 0</h3>
+                            <p>Happy Clients</p>
+                        </div>
+                    </div>
+                    <!-- ? ////////////////////////////////// -->
+                    <div class="col-lg-4 col-md-4 col-sm-12 text-center p-3">
+                        <div class="count-data">
+                            <img class="img-fluid" width="80px" height="80px" src="images/icon pngs/employee.png" alt="">
+                            <h3 class="mt-3 countNums" data-goal="175" > 0</h3>
+                            <p>Great Employees</p>
+                        </div>
+                    </div>
+                    <!-- ? ////////////////////////////////// -->
+                    <div class="col-lg-4 col-md-4 col-sm-12 text-center p-3">
+                        <div class="count-data">
+                            <img class="img-fluid" width="80px" height="80px" src="images/icon pngs/instaFloweers.png" alt="">
+                            <h3 class="mt-3 countNums" data-goal="56" > 0 </h3>
+                            <p>Instagram Followers</p>
+                        </div>
+                    </div>
+                    <!-- ? ////////////////////////////////// -->
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+
+       
+</section>
+<!-- ???????????????????????????????????! why  ?????????????????????????????????? -->
+<!-- ???????????????????????????????????! why  ?????????????????????????????????? -->
+
+
+
+
+<!-- ???????????????????????????????????! artist  ?????????????????????????????????? -->
+<!-- ???????????????????????????????????! artist  ?????????????????????????????????? -->
+<section class="artist" id="artist">
+    <div class="container">
+         <div class="container">
+                <div class="row mt-5">
+                    <div class=" text-center col-lg-12 above-artist ">
+                        <div style="margin-top: 80px;" class="col-lg-9 m-auto ">
+                            <h2 > Our best artists </h2>
+                            <p class=" m-auto w-75 text-center">“Explain few led parties attacks picture company. On sure fine kept walk am in it.
+                                Resolved to in believed desirous unpacked weddings together. ”</p>
+                            <!-- <h5 class="text-right">– glowing </h5> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class="row">
+            <div class="col-lg-4 p-3  ">
+                <div class="artisit-person">
+                    <div class="data">
+                            <div>
+                                <img class="rotate-logo" width="100px" height="50px" src="images/logo/glowing-logo.png"  alt="">
+                            </div >
+                        <!-- ? ///////////////////////// -->
+                            <div class="icons" >
+                                <i style="color: rgba(156, 194, 224, 0.761);" class=" icon fab fa-facebook"></i> <br><br>
+                                <i style="color: #7bfaa1c5;" class=" icon fab fa-whatsapp"></i> <br><br>
+                                <i style="color: #f38c9fb9 ;" class=" icon fab fa-instagram"></i> <br><br>
+                            </div>
+                        <!-- ? ///////////////////////// -->
+                            <div  >
+                                <button class="butn3"> view Profile </button>
+                            </div>
+                        <!-- ? ///////////////////////// -->
+
+                    </div>
+                </div>
+            </div>
+            <!-- ? /////////////////////////////////////// -->
+            <div class="col-lg-4 p-3  ">
+                <div style="background-image: url(images/gallary/artist\ \(2\).jpg);" class="artisit-person">
+                    <div class="data">
+                            <div>
+                                <img class="rotate-logo" width="100px" height="50px" src="images/logo/glowing-logo.png"  alt="">
+                            </div >
+                        <!-- ? ///////////////////////// -->
+                            <div class="icons" >
+                                <i style="color: rgba(156, 194, 224, 0.761);" class=" icon fab fa-facebook"></i> <br><br>
+                                <i style="color: #7bfaa1c5;" class=" icon fab fa-whatsapp"></i> <br><br>
+                                <i style="color: #f38c9fb9 ;" class=" icon fab fa-instagram"></i> <br><br>
+                            </div>
+                        <!-- ? ///////////////////////// -->
+                            <div  >
+                                <button class="butn3"> view Profile </button>
+                            </div>
+                        <!-- ? ///////////////////////// -->
+
+                    </div>
+                </div>
+            </div>
+            <!-- ? /////////////////////////////////////// -->
+            <div class="col-lg-4 p-3  ">
+                <div style="background-image: url(images/gallary/artist\ \(3\).jpg);" class="artisit-person">
+                    <div class="data">
+                            <div>
+                                <img class="rotate-logo" width="100px" height="50px" src="images/logo/glowing-logo.png"  alt="">
+                            </div >
+                        <!-- ? ///////////////////////// -->
+                            <div class="icons" >
+                                <i style="color: rgba(156, 194, 224, 0.761);" class=" icon fab fa-facebook"></i> <br><br>
+                                <i style="color: #7bfaa1c5;" class=" icon fab fa-whatsapp"></i> <br><br>
+                                <i style="color: #f38c9fb9 ;" class=" icon fab fa-instagram"></i> <br><br>
+                            </div>
+                        <!-- ? ///////////////////////// -->
+                            <div  >
+                                <button class="butn3"> view Profile </button>
+                            </div>
+                        <!-- ? ///////////////////////// -->
+
+                    </div>
+                </div>
+            </div>
+            <!-- ? /////////////////////////////////////// -->
+        </div>
+        <div class="text-center">
+        <button  class="text-center butn2"> view more artists </button>
+
+        </div>
+
+    </div>
+</section>
+<!-- ???????????????????????????????????! artist  ?????????????????????????????????? -->
+<!-- ???????????????????????????????????! artist  ?????????????????????????????????? -->
+
+
+<!-- ???????????????????????????????????! gallary  ?????????????????????????????????? -->
+<!-- ???????????????????????????????????! gallary  ?????????????????????????????????? -->
+<section class="gallary" id="gallary">
+            <div class="container">
+                <div class="row mt-5">
+                    <div class=" text-center col-lg-12 above-gallary ">
+                        <div style="margin-top: 80px;" class="col-lg-9 m-auto ">
+                            <h2 > gallary </h2>
+                            <p class=" m-auto w-75 text-center">“Explain few led parties attacks picture company. ”</p>
+                            <!-- <h5 class="text-right">– glowing </h5> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="container-fluid mt-5">
+                <div class="row">
+                    <div class="col-lg-4 p-0 m-0 gallaryCarry" >
+                        <img class="img-fluid p-0 m-0" src="images/gallary/gallary (1).jpg" alt="">
+                        <div class="overlay position-absolute " >
+                                <h5  class=" position-absolute ">
+                                    Latest projects <br>
+                                    BROWN HAIR WAVE
+                                </h5>
+                        </div>
+                    </div>
+                    <!-- ? ******************************************** -->
+
+                    <div class="col-lg-4 p-0 m-0 gallaryCarry" >
+                        <img class="img-fluid p-0 m-0" src="images/gallary/gallary (3).jpg" alt="">
+                        <div class="overlay position-absolute " >
+                                <h5  class=" position-absolute ">
+                                    Latest projects <br>
+                                    BROWN HAIR WAVE
+                                </h5>
+                        </div>
+                    </div>
+                    <!-- ? ******************************************** -->
+
+                    <div class="col-lg-4 p-0 m-0 gallaryCarry" >
+                        <img class="img-fluid p-0 m-0" src="images/gallary/gallary (4).jpg" alt="">
+                        <div class="overlay position-absolute " >
+                                <h5  class=" position-absolute ">
+                                    Latest projects <br>
+                                    BROWN HAIR WAVE
+                                </h5>
+                        </div>
+                    </div>
+                    <!-- ? ******************************************** -->
+
+                    <div class="col-lg-4 p-0 m-0 gallaryCarry" >
+                        <img class="img-fluid p-0 m-0" src="images/gallary/gallary (14).jpg" alt="">
+                        <div class="overlay position-absolute " >
+                                <h5  class=" position-absolute ">
+                                    Latest projects <br>
+                                    BROWN HAIR WAVE
+                                </h5>
+                        </div>
+                    </div>
+                    <!-- ? ******************************************** -->
+
+                    <div class="col-lg-4 p-0 m-0 gallaryCarry" >
+                        <img class="img-fluid p-0 m-0" src="images/gallary/gallary (6).jpg" alt="">
+                        <div class="overlay position-absolute " >
+                                <h5  class=" position-absolute ">
+                                    Latest projects <br>
+                                    BROWN HAIR WAVE
+                                </h5>
+                        </div>
+                    </div>
+                    <!-- ? ******************************************** -->
+
+                    <div class="col-lg-4 p-0 m-0 gallaryCarry" >
+                        <img class="img-fluid p-0 m-0" src="images/gallary/gallary (7).jpg" alt="">
+                        <div class="overlay position-absolute " >
+                                <h5  class=" position-absolute ">
+                                    Latest projects <br>
+                                    BROWN HAIR WAVE
+                                </h5>
+                        </div>
+                    </div>
+                    <!-- ? ******************************************** -->
+
+                    <div class="col-lg-4 p-0 m-0 gallaryCarry" >
+                        <img class="img-fluid p-0 m-0" src="images/gallary/gallary (8).jpg" alt="">
+                        <div class="overlay position-absolute " >
+                                <h5  class=" position-absolute ">
+                                    Latest projects <br>
+                                    BROWN HAIR WAVE
+                                </h5>
+                        </div>
+                    </div>
+                    <!-- ? ******************************************** -->
+
+                    <div class="col-lg-4 p-0 m-0 gallaryCarry" >
+                        <img class="img-fluid p-0 m-0" src="images/gallary/gallary (9).jpg" alt="">
+                        <div class="overlay position-absolute " >
+                                <h5  class=" position-absolute ">
+                                    Latest projects <br>
+                                    BROWN HAIR WAVE
+                                </h5>
+                        </div>
+                    </div>
+                    <!-- ? ******************************************** -->
+
+                      <div class="col-lg-4 p-0 m-0 gallaryCarry" >
+                        <img class="img-fluid p-0 m-0" src="images/gallary/gallary (11).jpg" alt="">
+                        <div class="overlay position-absolute " >
+                                <h5  class=" position-absolute ">
+                                    Latest projects <br>
+                                    BROWN HAIR WAVE
+                                </h5>
+                        </div>
+                    </div>
+                    <!-- ? ******************************************** -->
+   
+                </div>
+            </div>
+</section>
+<!-- ???????????????????????????????????! gallary  ?????????????????????????????????? -->
+<!-- ???????????????????????????????????! gallary  ?????????????????????????????????? -->
+
+
+<!-- ???????????????????????????????????! testemonials  ?????????????????????????????????? -->
+<!-- ???????????????????????????????????! testemonials  ?????????????????????????????????? -->
+<section class="testemonials pb-5"   data-vide-bg="images\video\2.mp4" id="testemonials">
+            <div class="container" >
+                <div class="row ">
+                    <div style="margin-top: 80px!important;" class=" text-center col-lg-12 above-artist ">
+                        <div  class="col-lg-9 m-auto ">
+                            <h2 style="color: #b3515d;font-weight: 600;" > testemonials </h2>
+                            <p style="color: #ffffff;" class=" m-auto w-75 text-center">“Explain few led parties attacks picture parties attacks pictureparties attacks picture company. ”</p>
+                            <!-- <h5 class="text-right">– glowing </h5> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container teste-main">
+                <img  class="img-fluid Teste-img "  src="images/quote.webp" alt="">
+                <div class=" col-lg-10 m-auto owl-carousel owl-theme" id="makeup_data">
+                    <div class="teste-data">
+                        <div class="d-flex">
+                            <div class=" ">
+                                <img width="80px" height="80px" src="images/gallary/teste.jpg" alt="">
+                            </div>
+                            <div class="ml-3 ">
+                                <p >
+                                    <span>join due</span> <br>
+                                    developer
+                                </p>
+                            </div>
+                        </div>
+                        <p class="">Rachel you are so amazing at what you do! Thank you so much for everything! I felt so beautiful on our wedding day.
+                            Not only are you superwoman with a makeup brush, you are so lovely and such a delight to have around the morning 
+                            of the wedding!! Any bride would be very lucky to have you part of her big day, I am very grateful that you were part of mine</p>
+                    
+                    </div>
+
+                    <!-- ? //////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+               
+                    <div class="teste-data">
+                        <div class="d-flex">
+                            <div class=" ">
+                                <img width="80px" height="80px" src="images/gallary/teste.jpg" alt="">
+                            </div>
+                            <div class="ml-3 ">
+                                <p >
+                                    <span>join due</span> <br>
+                                    developer
+                                </p>
+                            </div>
+                        </div>
+                        <p class="">Rachel you are so amazing at what you do! Thank you so much for everything! I felt so beautiful on our wedding day.
+                            Not only are you superwoman with a makeup brush, you are so lovely and such a delight to have around the morning 
+                            of the wedding!! Any bride would be very lucky to have you part of her big day, I am very grateful that you were part of mine</p>
+                    
+                    </div>
+
+                    <!-- ? //////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+               
+
+                    <div class="teste-data">
+                        <div class="d-flex">
+                            <div class=" ">
+                                <img width="80px" height="80px" src="images/gallary/teste.jpg" alt="">
+                            </div>
+                            <div class="ml-3 ">
+                                <p >
+                                    <span>join due</span> <br>
+                                    developer
+                                </p>
+                            </div>
+                        </div>
+                        <p class="">Rachel you are so amazing at what you do! Thank you so much for everything! I felt so beautiful on our wedding day.
+                            Not only are you superwoman with a makeup brush, you are so lovely and such a delight to have around the morning 
+                            of the wedding!! Any bride would be very lucky to have you part of her big day, I am very grateful that you were part of mine</p>
+                    
+                    </div>
+
+                    <!-- ? //////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+                
+
+                    
+                </div>
+            </div>
+</section>
+<!-- ???????????????????????????????????! testemonials  ?????????????????????????????????? -->
+<!-- ???????????????????????????????????! testemonials  ?????????????????????????????????? -->
+
+
+<!-- ???????????????????????????????????! FAQS  ?????????????????????????????????? -->
+<!-- ???????????????????????????????????! FAQS  ?????????????????????????????????? -->
+<section class="FAQS pb-5" id="FAQS">
+    <div class="container" >
+                <div class="row ">
+                    <div style="margin-top: 80px!important;" class=" text-center col-lg-12 above-gallary ">
+                        <div  class="col-lg-9 m-auto ">
+                            <h2 style="color: #f15063;"> FAQS </h2>
+                            <p class=" m-auto w-75 text-center">“Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab quibusdam impedit natus.”</p>
+                            <!-- <h5 class="text-right">– glowing </h5> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+             <div class="container">
+                <div class="row">
+
+                    <div  class="col-lg-10 col-md-6 col-sm-12 m-auto p-2 mt-5">
+                            <!--Accordion wrapper-->
+                        <div class=" col-lg-12 m-auto accordion md-accordion accordion-blocks" id="accordionEx78" role="tablist" aria-multiselectable="true">
+                        
+                            <!-- Accordion card -->
+                            <div  class="card">
+
+                            <!-- Card header -->
+                            <div  class="card-header " role="tab" id="headingUnfiled">
+                            <!-- Heading -->
+                                <a data-toggle="collapse" data-parent="#accordionEx78" href="#collapseUnfiled" aria-expanded="true"
+                                aria-controls="collapseUnfiled">
+                                <h5 class="mt-1 mb-0 text-left">
+                                    <i class="  fas fa-angle-down rotate-icon"></i>
+                                    <span class=" faqs-span">The idea of the app?</span>
+                                </h5>
+                                </a>
+                            
+                            </div>
+                            
+                            <!-- Card body  show -->
+                            <div id="collapseUnfiled" class="collapse show" role="tabpanel" aria-labelledby="headingUnfiled"
+                                data-parent="#accordionEx78">
+                                <div class="card-body ">
+                            
+                                <!--Top Table UI-->
+                                <div class="table-ui p-2  mx-3 ">
+                            
+                                    <!--Grid row-->
+                                    <div class="row">
+                            
+                                    <p class="text-left faqs-p">The application's idea is that it contains all the things you need in Different Egypt, whether events or transport companies or tourist and entertainment and sports places or cafés or restaurants or whatever you want you will find in the application as well as the application contains many other services aimed at facilitating the user experience and providing different features for it</p>  
+                                    </div>
+                                    <!--Grid row-->
+                            
+                                </div>
+                            
+                                </div>
+                            </div>
+                            </div>
+                        <!-- ///////////////////////////////////////////////////////////////////////// -->
+                        <!-- ///////////////////////////////////////////////////////////////////////// -->
+
+                            
+                            <div  class="card mt-3">
+                            
+                            <!-- Card header -->
+                            <div class="card-header" role="tab" id="heading79">
+                            <!-- Heading -->
+                                <a data-toggle="collapse" data-parent="#accordionEx78" href="#collapse79" aria-expanded="true"
+                                aria-controls="collapse79">
+                                <h5 class="mt-1 mb-0">
+                                    <i class="fas fa-angle-down rotate-icon"></i>
+                                    <span class="faqs-span " >What's special about other tourist apps in the app?</span>
+                                </h5>
+                                </a>
+                            
+                            </div>
+                            
+                            <!-- Card body -->
+                            <div id="collapse79" class="collapse " role="tabpanel" aria-labelledby="heading79"
+                                data-parent="#accordionEx78">
+                                <div class="card-body">
+                            
+                            <!--Top Table UI-->
+                            <div class="table-ui p-2  mx-3 ">
+                            
+                            <!--Grid row-->
+                            <div class="row">
+                        
+                                <p class="faqs-p">
+                                The app specializes in tourism in Egypt only and does not show just some events or places but is deep in them all and brings you all those places without exception together and brings you all the real information about it to make it easier for the user to know which is better and provide him with ease of choice and tourism in Egypt
+                                </p>
+                        
+                            </div>
+                            <!--Grid row-->
+                        
+                            </div>
+                                </div>
+                            </div>
+                            </div>
+                            <!-- ///////////////////////////////////////////////////////////////////////// -->
+                        <!-- ///////////////////////////////////////////////////////////////////////// -->
+
+                            
+                            <div  class="card mt-3">
+                            
+                            <!-- Card header -->
+                            <div class="card-header" role="tab" id="heading80">
+                            <!-- Heading -->
+                                <a data-toggle="collapse" data-parent="#accordionEx78" href="#collapse80" aria-expanded="true"
+                                aria-controls="collapse80">
+                                <h5 class="mt-1 mb-0">
+                                    <i class=" fas fa-angle-down rotate-icon"></i>
+                                    <span class="faqs-span">Can anyone add an event or a place??</span>
+                                </h5>
+                                </a>
+                            </div>
+                            
+                            <!-- Card body -->
+                            <div id="collapse80" class="collapse" role="tabpanel" aria-labelledby="heading80"
+                                data-parent="#accordionEx78">
+                                <div class="card-body">
+                            
+                                <!--Top Table UI-->
+                                <div class="table-ui p-2  mx-3 ">
+                                
+                                <!--Grid row-->
+                                <div class="row">
+                            
+                                    <p class="faqs-p">Anyone who can do that will send this information to the Admin and review it and after it is confirmed it will approve it and display it in the application</p>
+                            
+                                </div>
+                                <!--Grid row-->
+                            
+                                </div>
+                                    </div>
+                            </div>
+                            </div>
+                        <!-- ///////////////////////////////////////////////////////////////////////// -->
+                        <!-- ///////////////////////////////////////////////////////////////////////// -->
+
+                        <div  class="card mt-3">
+                            
+                            <!-- Card header -->
+                            <div class="card-header" role="tab" id="heading80">
+                            <!-- Heading -->
+                            <a data-toggle="collapse" data-parent="#accordionEx78" href="#collapse50" aria-expanded="true"
+                                aria-controls="collapse80">
+                                <h5 class="mt-1 mb-0">
+                                <i class=" fas fa-angle-down rotate-icon"></i>
+                                <span class="faqs-span">Future features of the application?</span>
+                                </h5>
+                            </a>
+                            </div>
+                        
+                            <!-- Card body -->
+                            <div id="collapse50" class="collapse" role="tabpanel" aria-labelledby="heading80"
+                            data-parent="#accordionEx78">
+                            <div class="card-body">
+                        
+                                <!--Top Table UI-->
+                                <div class="table-ui p-2  mx-3 ">
+                            
+                                <!--Grid row-->
+                                <div class="row">
+                            
+                                <p class="faqs-p">We intend to add in the future to the application several other features such as talking with admin and developing chat between users by adding other options and adding a page to show places with virtual reality technology where the tourist places are displayed in front of you by camera as well as another page to display Egyptian places and make a virtual tour inside them from within the application and other things that make the user experience inside the application better and enjoyable</p>
+                            
+                                </div>
+                                <!--Grid row-->
+                            
+                            </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ///////////////////////////////////////////////////////////////////////// -->
+                        <!-- ///////////////////////////////////////////////////////////////////////// -->
+
+                        <div  class="card mt-3">
+                            
+                        <!-- Card header -->
+                        <div class="card-header" role="tab" id="heading80">
+                        <!-- Heading -->
+                            <a data-toggle="collapse" data-parent="#accordionEx78" href="#collapse40" aria-expanded="true"
+                            aria-controls="collapse80">
+                            <h5 class="mt-1 mb-0">
+                                <i class=" fas fa-angle-down rotate-icon"></i>
+                                <span class="faqs-span">Is the app official??</span>
+                            </h5>
+                            </a>
+                        </div>
+                        
+                        <!-- Card body -->
+                        <div id="collapse40" class="collapse" role="tabpanel" aria-labelledby="heading80"
+                            data-parent="#accordionEx78">
+                            <div class="card-body">
+                        
+                            <!--Top Table UI-->
+                            <div class="table-ui p-2  mx-3 ">
+                            
+                            <!--Grid row-->
+                            <div class="row">
+                        
+                                <p class="faqs-p">The app is informal and belongs to a group of Egyptian developers who aim to help their country increase its tourism status in the country and help it achieve its narrative in 2030</p>
+                        
+                            </div>
+                            <!--Grid row-->
+                        
+                            </div>
+                                </div>
+                        </div>
+                        </div>
+                    <!-- ///////////////////////////////////////////////////////////////////////// -->
+                    <!-- ///////////////////////////////////////////////////////////////////////// -->
+
+
+                        
+                        
+                        <!-- ///////////////////////////////////////////////////////////////////////// -->
+                        <!-- ///////////////////////////////////////////////////////////////////////// -->
+
+
+                        </div>
+                    </div>
+                
+
+                </div>
+            </div>
+
+
+</section>
+<!-- ???????????????????????????????????! FAQS  ?????????????????????????????????? -->
+<!-- ???????????????????????????????????! FAQS  ?????????????????????????????????? -->
