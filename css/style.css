@@ -936,23 +936,22 @@ transform: scale(1 , 1);
  transition: all 0.3s ease-in;
 }
 
-
-/* .project h5 {
-    color: var(--white);
-    font-weight: 400 !important;
-    font-size:30px ;
-    font-family: 'Concert One', cursive;
+.Show_More .Projects_btns{
+    width: auto;
+    border-radius: 10px;
+    border: 2px solid var(--Sec-color);
 
 }
 
-.project p {
-    color: var(--text-color);
-    font-weight: 900 !important;
-    font-size:12px ;
-} */
+.Show_More .Projects_btns span{
+    color:#5a189a;
 
+}
 
-
+.Show_More .Projects_btns:hover span {
+ color: var(--white);
+ transition: 0.3s;
+}
 
 
 
