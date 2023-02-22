@@ -56,3 +56,16 @@
 
 }
 
+.Projects_btns{
+    border: 1.8px solid var(--Sec-color);
+    color: var(--black) !important;
+}
+
+.Projects_btns span{
+    color: var(--Sec-color) !important;
+}
+
+.Projects_btns:hover span {
+ color: var(--white) !important;
+ transition: 0.3s;
+}

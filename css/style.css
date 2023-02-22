@@ -382,10 +382,10 @@ nav.open {
 }
 
 .welcomediv h1 {
-    font-family: 'Concert One', cursive;
     letter-spacing: 2px;
     color: var(--main-color);
     font-weight: 400;
+    font-family: 'Concert One', cursive;
 }
 
 .welcomediv h3 {
@@ -952,182 +952,43 @@ transform: scale(1 , 1);
  color: var(--white);
  transition: 0.3s;
 }
+/* //////////////////////   footer   //////////////////// */
+/* //////////////////////   footer   //////////////////// */
+/* //////////////////////   footer   //////////////////// */
+/* //////////////////////   footer   //////////////////// */
 
 
+.textFooter h6{
+    color: var(--main-color);
+    font-weight: 900;
 
-/* /////////////////////////////////////////////////////////// */
-/* /////////////////////////////////////////////////////////// */
-/* /////////////////////////////////////////////////////////// */
-/* /////////////////////////////////////////////////////////// */
-.testemonials {
-    width: 100%;
-    height: auto;
-    position: relative;
-    background: linear-gradient(rgba(255, 210, 219, 0.7), rgba(255, 210, 219, 0.7));
-}
+    /* font-family: 'Shantell Sans', cursive;
 
-.teste-main {
-    margin-top: 80px !important;
-    position: relative;
-}
+    font-family: 'Concert One', cursive;
 
-.teste-data img {
-    border-radius: 50%;
-}
+    font-family: 'Padauk', sans-serif;
 
-.teste-data p {
-    font-size: 20px;
-    font-family: 'Gaegu', cursive;
-    color: #000;
-}
+    font-family: 'Tourney', cursive; */
 
-.teste-data p.span {
-    font-size: 25px;
-}
-
-.Teste-img {
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    left: 50px;
-    top: -50px;
-    z-index: -1;
-}
-
-/* /////////////////////////////////////////////////////////// */
-/* /////////////////////////////////////////////////////////// */
-/* /////////////////////////////////////////////////////////// */
-/* /////////////////////////////////////////////////////////// */
-
-.FAQS {
-    width: 100%;
-    height: auto;
-    position: relative;
-    /* margin-top: 80px !important; */
-    background-color: transparent;
-    background: url("../images/6.webp") no-repeat center;
-    background-size: cover;
-}
-
-.FAQS .card {
-    background-color: transparent;
-    border-radius: 0px;
-    border-left: 5px solid #f15063 !important;
-}
-
-.faqs-span {
-    font-family: 'Stylish', sans-serif;
-    font-size: 22px;
-    color: #f15063;
-}
-
-.rotate-icon {
-    font-size: 22px;
-    color: #f15063;
-}
-
-.faqs-p {
-    font-family: 'Gaegu', cursive;
-    font-size: 19px;
-    color: #888
-}
-
-/* /////////////////////////////////////////////////////////// */
-/* /////////////////////////////////////////////////////////// */
-/* /////////////////////////////////////////////////////////// */
-/* /////////////////////////////////////////////////////////// */
-
-footer {
-    width: 100%;
-    height: auto;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-}
-
-.footer-brand {
-    font-family: 'Graduate', cursive !important;
-}
-
-footer h2 {
-    text-align: left;
-    text-decoration-line: none;
-}
-
-footer h5 {
-    color: #fff !important;
-    font-size: 25px;
-}
-
-footer p {
-    color: #f0d9dc !important;
-}
-
-.context-dark,
-.bg-gray-dark,
-.bg-primary {
-    color: rgba(255, 255, 255, 0.8);
-}
-
-.footer-classic a,
-.footer-classic a:focus,
-.footer-classic a:active {
-    color: #f0d9dc !important;
-}
-
-.nav-list li {
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-.nav-list li a:hover:before {
-    margin-left: 0;
-    opacity: 1;
-    visibility: visible;
-}
-
-.contact_data dt,
-.contact_data dd {
-    color: #f0d9dc !important;
+    font-family: 'Padauk', sans-serif;
+    font-size: 18px;
 
 }
 
 
-ul,
-ol {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+.textFooter h2{
+    color: var(--Sec-color);
+    font-weight: 900;
+    font-family: 'Concert One', cursive;
+    font-size: 30px;
 }
 
-
-.social {
-    font-size: 25px;
-
+.textFooter p{
+    color: var(--text-color);
+    font-weight: 900;
+    font-family: 'Padauk', sans-serif;
+    font-size: 17px;
 }
-
-.footerinput {
-    width: 75%;
-    height: 50px;
-    background-color: transparent;
-    padding: 15px;
-    outline: none;
-    border: 1px solid #EFAEB6;
-
-}
-
-.footerinput::placeholder {
-    font-size: 13px;
-    color: #f0d9dc;
-}
-
-.butn5 {
-    width: 60px;
-    height: 50px;
-    background-color: transparent;
-    margin-left: -5px;
-    border-radius: 2px;
-    border: 1px solid #EFAEB6;
-}
-
 /* todo  /////////////////////////////////////////////////////////  other pages  /////////////////////////////////////////////////////////////////////////// */
 /* todo  /////////////////////////////////////////////////////////  other pages  /////////////////////////////////////////////////////////////////////////// */
 /* todo  /////////////////////////////////////////////////////////  other pages  /////////////////////////////////////////////////////////////////////////// */
@@ -1137,125 +998,6 @@ ol {
 /* todo  /////////////////////////////////////////////////////////  other pages  /////////////////////////////////////////////////////////////////////////// */
 /* todo  /////////////////////////////////////////////////////////  other pages  /////////////////////////////////////////////////////////////////////////// */
 /* todo  /////////////////////////////////////////////////////////  other pages  /////////////////////////////////////////////////////////////////////////// */
-
-.loginSection {
-    width: 100%;
-    height: 100vh;
-    position: relative;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-}
-
-.signupSection {
-    width: 100%;
-    height: 100vh;
-    position: relative;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-}
-
-.MainLogin {
-    height: auto;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-
-}
-
-.MainLogin h3 {
-    color: #EFAEB6 !important;
-    font-family: 'Gaegu', cursive;
-}
-
-.MainLogin p {
-    color: #EFAEB6;
-    font-family: 'Gaegu', cursive;
-}
-
-.MainLogin form input {
-    background-color: transparent !important;
-    color: #fff;
-    border: none;
-    border-bottom: 1px solid #EFAEB6 !important;
-    border-radius: 0;
-    outline: none;
-    box-shadow:none !important;
-}
-
-.MainLogin form input:focus {
-    color: #fff;
-    outline: none!important;
-}
-
-.MainLogin form input::placeholder {
-    color: #EFAEB6;
-}
-
-.progress {
-    width: 0;
-    height: 1px;
-    background-color: #2196f3;
-    display: block;
-    position: relative;
-    top: -1px;
-    padding: 0;
-}
-
-.counter{
-    font-size: 14px;
-}
-
-.zero{
-    color: rgba(241, 35, 35, 0.664)!important;
-    font-weight: bolder;
-}
-
-.filled {
-    background-color: rgba(241, 35, 35, 0.664) !important;
-}
-
-.targetLink {
-    font-family: 'Stylish', sans-serif;
-    color: #f15063;
-    font-size: 19px;
-}
-
-
-
-
-.Profile-header .welcomediv {
-    width: 100%;
-    height: 600px;
-    position: relative;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../images/banners/profile.jpg") no-repeat center fixed;
-    background-size: cover;
-
-}
-
-/* .Profile-header .welcomediv {
-    margin-top: 100px;
-
-} */
-
-
-.welcomediv .profile-img {
-    width: 270px;
-    height: 270px;
-    border-radius: 50%;
-    border: 10px solid #F49EB7;
-    transition: 0.5s;
-    transform: scale(1);
- 
-
-}
-
-
-
-.welcomediv .profile-img:hover {
-    transition: 0.5s;
-    transform: scale(1.0800);
-}
-
-
-
-
 
 /* //////////////////////   responsive   //////////////////// */
 /* //////////////////////   responsive   //////////////////// */
@@ -1284,16 +1026,7 @@ ol {
 
 
 @media screen and (max-width: 991px) {
-    /* .navbar {
-        background-color: black;
-        padding: 20px 20px;
-        background-color: black;
-        padding: 0px 5px !important;
-    }
-
-    .navbar .nav-link {
-        padding: none !important;
-    } */
+  
     .header {
         width: 100%;
         height: auto;
@@ -1303,9 +1036,7 @@ ol {
         width: 100%;
         background-color: rgba(0, 0, 0, 0.900);
     }
-    /* .MENU_toggler{
-        left: 210px;
-    } */
+
     .welcomediv {
         text-align: center;
     }
@@ -1335,9 +1066,7 @@ ol {
 
 
 @media screen and (max-width: 767px) {
-    /* .title-text::after {
-        top: 120px;
-    } */
+
 
 }
 
@@ -1364,58 +1093,3 @@ ol {
 
 
 
-
-#services{
-    width: 100%;
-    height: auto;
-    background:url(../images/gallery/department.png) no-repeat ;
-    background-size: cover; 
-}
-.title-text h5{
-    text-transform:uppercase;
-    color: #042d41;
-}
-
-.title-text h1{
-    font-size: 50px;
-    font-weight: 700;
-    color: #35befd;
-
-}
-.nav-tabs{
-    border: none;
-    display: flex;
-    overflow: hidden;
-}
-.nav-tabs .nav-item {
-    border: none;
-    padding: 15px;
-    height: 150px;
-
-}
-.nav-tabs .nav-item a {
-
-    background-color: white;
-    color: #35befd;
-    border: none;
-    font-size: 14px;
-    
-}
- .flaticon {
- text-align: center!important;
- font-size: 25px!important;   
-}
-.nav-tabs .nav-item a.active{
-    background-color: #35befd;
-    color: #fff;
-}
-.nav-tabs .nav-item a:focus{
-    background-color: #35befd;
-    color: #fff;
-}
-.bacimg{
-    width: 100%;
-    height: 500px;
-    background: no-repeat ;
-    background-size: cover;
-}
