@@ -16,13 +16,19 @@ let Personal_Btn = document.querySelector('.PersonalBtn');
 let text_container = document.querySelector('.text-container');
 let personalData = document.querySelector('.personalData');
 let Wave = document.querySelector('.waving-hand');
+let breaf_Overlay = document.querySelector('.breaf_Overlay');
 let My_breaf = document.querySelector('.My_breaf');
 let Close_Breaf = document.querySelector('.Close_Breaf');
+let my_song = document.querySelector('#my-song');
+let music_img = document.querySelector(".music_img");
+let toggle_style_switcher = document.querySelector(".toggle-style-switcher");
+let style_switcher = document.querySelector(".style-switcher");
+let root = document.querySelector(':root');
+let darkmood_img = document.querySelector('.darkmood_img');
+let skills = document.querySelector('.skills');
 
 
-
-
-
+// ? ///////////////// menue togller ////////////////
 toggler.onclick = function(e) {
   nav.classList.toggle("open");
   bars.forEach(el => {
@@ -30,10 +36,7 @@ toggler.onclick = function(e) {
   });
 }
 
-// /////////////////////////////////////////////////
-// /////////////////////////////////////////////////
-// /////////////////////////////////////////////////
-
+// ? //////////////////// change menue togller on open and close /////////////////////////////
 nav.onclick = function (e) {
   nav.classList.toggle("open");
   bars.forEach(el => {
@@ -42,10 +45,7 @@ nav.onclick = function (e) {
   NavTitle.textContent = "Hello";
 }
 
-// /////////////////////////////////////////////////
-// /////////////////////////////////////////////////
-// /////////////////////////////////////////////////
-
+// ? //////////////////// close the nav bar on click any navlink  /////////////////////////////
 navlink.forEach(el => {
   el.addEventListener("click", function () {
     setTimeout(() => {
@@ -56,10 +56,7 @@ navlink.forEach(el => {
   })
 });
 
-// /////////////////////////////////////////////////
-// /////////////////////////////////////////////////
-// /////////////////////////////////////////////////
-
+// ? /////////////////////// set nav link text in another div on hover //////////////////////////
 
 navlink.forEach(el => {
   el.addEventListener("mouseenter", function () {
@@ -77,17 +74,12 @@ Wave.addEventListener("click", function () {
 //* close breaf div
 Close_Breaf.addEventListener("click", function () {
   My_breaf.style.display = "none";
-
 });
 
 
-
-// /////////////////////////////////////////////////
-// /////////////////////////////////////////////////
-// /////////////////////////////////////////////////
-
-
-
+// ? ////////////////////// chang my photos    ///////////////////////////
+// ? ////////////////////// chang my photos    ///////////////////////////
+// ? /////////////////////  chang my photos   ///////////////////////////
 smallPhoto.forEach(el => {
   el.addEventListener("click", function () {
     bigPhoto.setAttribute("src", this.getAttribute('src'))
@@ -110,18 +102,106 @@ meBtn.onclick = function (e) {
 Personal_Btn.onclick = function (e) {
   text_container.style.display = "none";
   personalData.style.display = "block";
+};
+
+
+// ? //////////////////  click sound effect ///////////////////////////////
+// ? //////////////////  click sound effect ///////////////////////////////
+// ? //////////////////  click sound effect ///////////////////////////////
+
+
+music_img.onclick = function (e) {
+  if (music_img.getAttribute('src') === "images/Controls/music_on.png") {
+    music_img.src = "images/Controls/music_off.png";
+    body.addEventListener('click', (e) => {
+      my_song.play();
+    });
+  }
+  else {
+    music_img.src = "images/Controls/music_on.png";
+    body.addEventListener('click', (e) => {
+      my_song.pause();
+    });
+  }
 }
 
 
 
+// ? ////////////////// open and close Style control ///////////////////////////////
+// ? ////////////////// open and close Style control ///////////////////////////////
+// ? ////////////////// open and close Style control ///////////////////////////////
+
+
+toggle_style_switcher.addEventListener("click", () => {
+  style_switcher.classList.toggle("open_controls");
+});
+
+
+// ? //////////////////  dark mood system ///////////////////////////////
+// ? //////////////////  dark mood system ///////////////////////////////
+// ? //////////////////  dark mood system ///////////////////////////////
+
+function setLightMode() {
+  root.style.setProperty('--main-color', '#4a3b95');
+  root.style.setProperty('--Sec-color', '#7257fa');
+  root.style.setProperty('--glass-bac', '#7257fa73');
+  root.style.setProperty('--text-color', '#AFABB3');
+  root.style.setProperty('--white', '#fff');
+  root.style.setProperty('--black', '#000');
+  root.style.setProperty('--toggle-mood', '#ffffffe4');
+  root.style.setProperty('--opa-color', '#d7d9fd');
+  root.style.setProperty('--Nav-color', '#352970f5');
+  root.style.setProperty('--timeline_item_bg', 'rgba(255, 255, 255, 0.373)');
+  root.style.setProperty('--home-background', 'url("../images/download (1).png") no-repeat center');
+  root.style.setProperty('--projects-background', 'url("../images/download (1).png") no-repeat center');
+  root.style.setProperty('--timeline-background', 'url("../images/6.webp") no-repeat center');
+}
+      
+
+
+function setDarkMode() {
+  root.style.setProperty('--toggle-mood', '#10051C');
+  root.style.setProperty('--main-color', '#962DFF');
+  root.style.setProperty('--Sec-color', '#B973FF');
+  root.style.setProperty('--text-color', '#fff');
+  root.style.setProperty('--Nav-color', '#210A38');
+  root.style.setProperty('--opa-color', '#210A38');
+  root.style.setProperty('--home-background', 'none');
+  root.style.setProperty('--timeline-background', 'none');
+  root.style.setProperty('--projects-background', 'none');
+  root.style.setProperty('--timeline_item_bg', 'rgba(148, 70, 244, 0.063)');
+}
+
+function toggleMood() {
+  const currentMood = localStorage.getItem('mood');
+  if (currentMood === 'light') {
+    darkmood_img.src = "images/Controls/sun.png";
+    setDarkMode();
+    localStorage.setItem('mood', 'dark');
+  } else {
+    darkmood_img.src = "images/Controls/moon.png";
+    setLightMode();
+    localStorage.setItem('mood', 'light');
+  }
+}
+
+function initializeMood() {
+  const currentMood = localStorage.getItem('mood');
+  if (currentMood === 'dark') {
+    setDarkMode();
+  } else {
+    setLightMode();
+  }
+}
+
+initializeMood();
+darkmood_img.addEventListener('click', toggleMood);
 
 
 
-// /////////////////////////////////////////////////
-// /////////////////////////////////////////////////
-// /////////////////////////////////////////////////
-
-
+// ? //////////////////  0000 ///////////////////////////////
+// ? //////////////////  0000 ///////////////////////////////
+// ? //////////////////  0000 ///////////////////////////////
 
 // document.onkeyup = function (e) {
 //   if (e.key === "Escape") {
@@ -148,56 +228,6 @@ Personal_Btn.onclick = function (e) {
 
 
 // ///////////////////////////////////////////////////////////////////////////
-
-  
-// let body =  document.body;
-// body.innerHTML = "<span > Glowing </span>" 
-
-// let logo =  document.querySelector(".navbar-brand img");
-// let Link = document.querySelector(".activeLink");
-// let text = document.querySelector(".welcomediv h1")
-// logo.setAttribute("src" , "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Google_Photos_icon_%282020%29.svg/130px-Google_Photos_icon_%282020%29.svg.png")
-// Link.removeAttribute("href");
-//   text.textContent = "hello from js iam mostafa emad"
-     
-
-// var textLogo = document.querySelectorAll(".neon");
-// textLogo.forEach(el => {
-//   var logoName = "wadeh";
-//   el.textContent = `${logoName}`
-//   el.removeAttribute("data-text")
-// });
-
-// let countNums = document.querySelectorAll(".countNums")
-// let section = document.querySelector(".why")
-// let started = false;
-
-//  ? count up the numbers in  
-
-// window.onscroll = function () {
-//   if (window.scrollY >= section.offsetTop) {
-//     if (!started) {
-//     countNums.forEach((num) => StartCount(num) ) 
-//     }
-//     started = true;
-//   }
-// }
-
-
-// function StartCount(el) {
-//   let goal = el.dataset.goal; 
-//   console.log(goal);
-
-//   let count = setInterval(() => {
-//     el.textContent++; 
-//     if ( el.textContent === goal) {
-//       clearInterval(count);
-//     }
-//   }, 5000 / goal ); 
-// }
-
-
-
 
  
   

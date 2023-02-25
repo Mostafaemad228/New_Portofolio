@@ -237,11 +237,60 @@
 
 
 
+  <!-- ? ******************************************** -->
+                <div class=" AllProject_item mt-2 mb-3">
+                    <!--////////// start ///////////-->
+                    <div class="d-flex ">
+                        <div class="p-2 projectsData text-left">
+                            <div>
+                                <img src="images/projects/All_icons/icons8-coffee-pot-64.png"  class="img-fluid project_link " alt=""> 
+                                <span>coffe website</span> 
+                            </div>
+                             <div>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                             </div>
+                        </div>
+                        
+                        <div class="ml-auto projectslinks">
+                            <button class="btn btn-transparent text-light">
+                                <img src="images/projects/All_icons/icons8-link-100.png"  class="img-fluid project_link " alt=""> 
+                            </button>
+                            <button class="btn btn-transparent text-light">
+                                <img src="images/projects/All_icons/icons8-github-100.png"  class="img-fluid project_link " alt=""> 
+                            </button>                        
+                        </div>
+                        
+                    </div>
+                    <!--////////// start ///////////-->
+
+                </div>
+                <!-- ? ******************************************** -->
+
+
+
+ :     <div class="container" >
+        <a data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200" class="navbar-brand" href="index.html"> 
+            <img class="img-fluid"  src="images/logo/glowing-logo.png" width="200px" height="50px" alt=""> 
+            <!-- <span>glow</span>ing -->
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class=""> <i class="fa fa-bars"></i> </span> 
+        </button>
+        <div class="collapse navbar-collapse " id="ftco-nav">
+            <ul data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200" class="navbar-nav ml-auto ml-auto">
+                <li class="nav-item active mt-3 "><a href="index.html" class="nav-link activeLink active"> <i class=" fas fa-home"></i> Home</a></li>
+                <li class="nav-item mt-3"><a href="#About" class="nav-link"> <i class=" fas fas fa-info-circle"></i> about</a></li>
+                <li class="nav-item mt-3"><a href="artists-profile.html" class="nav-link"> <i class="fa fa-magic" aria-hidden="true"></i> artists</a></li>
+                <li class="nav-item mt-3"><a href="#FAQS" class="nav-link"> <i class="fa fa-question-circle" aria-hidden="true"></i> FAQS</a></li>
+                <li class="nav-item mt-3"><a href="#footer" class="nav-link"> <i class=" fas fa-address-book"></i> Contact</a></li>
+                <li class="nav-item"><a href="login.html" class="nav-link"> <button class="butn1" > regestration </button> </a></li>
+            </ul>
+        </div>
+    </div>
 
 
 
 
- : 
 
 
 
@@ -256,6 +305,166 @@
 
 
 
+
+
+// function mydarkMood() {
+//   // Set the value of variable --blue to another value (in this case "lightblue")
+//   // #111827
+//   root.style.setProperty('--toggle-mood', '#050508');  
+//   root.style.setProperty('--main-color', '#962DFF'); 
+//   root.style.setProperty('--Sec-color', '#B973FF'); 
+//   root.style.setProperty('--text-color', '#fff');
+//   root.style.setProperty('--home-background', 'none');
+//   root.style.setProperty('--timeline-background', 'none');
+//   root.style.setProperty('--projects-background', 'none');
+//   root.style.setProperty('--timeline_item_bg', 'rgba(74, 59, 149, 0.711)');
+//   skills.setAttribute('data-vide-bg','images/video/skills.webm') ;
+//   // skills.dataset.vide = 'images/video/skills.webm';
+
+// }
+
+
+
+// function mylightMood() {
+//   // Set the value of variable --blue to another value (in this case "lightblue")
+//   root.style.setProperty('--main-color' , '#4a3b95');
+//   root.style.setProperty('--Sec-color', '#7257fa');
+//   root.style.setProperty('--glass-bac', '#7257fa73');
+//   root.style.setProperty('--white', '#fff');
+//   root.style.setProperty('--black', '#000');
+//   root.style.setProperty('--toggle-mood', '#ffffffe4');
+//   root.style.setProperty('--opa-color', '# d7d9fd');
+//   root.style.setProperty('--home-background', 'url("../images/download (1).png") no-repeat center');
+//   root.style.setProperty('--projects-background', 'url("../images/download (1).png") no-repeat center');
+//   root.style.setProperty('--timeline-background', 'url("../images/6.webp") no-repeat center');
+//   root.style.setProperty('--timeline_item_bg', 'rgba(255, 255, 255, 0.373)');
+//   root.style.setProperty('--text-color', '#1D1934');
+//   skills.removeAttribute('data.data-vide-bg');
+
+
+// }
+
+
+
+
+// darkmood_img.onclick = function (e) {
+  
+//     if (darkmood_img.getAttribute('src') === "images/Controls/sun.png") {
+//       darkmood_img.src = "images/Controls/moon.png";
+//       mylightMood();
+//     }
+//     else{
+//       mydarkMood()
+//       darkmood_img.src = "images/Controls/sun.png";
+//     }
+
+// }
+
+
+
+
+// function setDarkMode() {
+//   root.style.setProperty('--toggle-mood', '#050508');
+//   root.style.setProperty('--main-color', '#962DFF');
+//   root.style.setProperty('--Sec-color', '#B973FF');
+//   root.style.setProperty('--text-color', '#fff');
+//   root.style.setProperty('--home-background', 'none');
+//   root.style.setProperty('--timeline-background', 'none');
+//   root.style.setProperty('--projects-background', 'none');
+//   root.style.setProperty('--timeline_item_bg', 'rgba(74, 59, 149, 0.711)');
+// }
+
+// function setLightMode() {
+//   root.style.setProperty('--main-color', '#4a3b95');
+//   root.style.setProperty('--Sec-color', '#7257fa');
+//   root.style.setProperty('--glass-bac', '#7257fa73');
+//   root.style.setProperty('--white', '#fff');
+//   root.style.setProperty('--black', '#000');
+//   root.style.setProperty('--toggle-mood', '#ffffffe4');
+//   root.style.setProperty('--opacity-color', '#d7d9fd');
+//   root.style.setProperty('--home-background', `url("../images/download (1).png") no-repeat center`);
+//   root.style.setProperty('--projects-background', `url("../images/download (1).png") no-repeat center`);
+//   root.style.setProperty('--timeline-background', `url("../images/6.webp") no-repeat center`);
+//   root.style.setProperty('--timeline_item_bg', 'rgba(255, 255, 255, 0.373)');
+//   root.style.setProperty('--text-color', '#1D1934');
+// }
+
+// function toggleMode() {
+
+//   if (darkmood_img.getAttribute('src') === 'images/Controls/sun.png') {
+//     darkmood_img.src = 'images/Controls/moon.png';
+//     setLightMode();
+//     localStorage.setItem('darkmode', true);
+//   } else {
+//     setDarkMode();
+//     darkmood_img.src = 'images/Controls/sun.png';
+//     localStorage.setItem('darkmode', false);
+//   }
+// }
+
+// // Check if darkmode is saved in local storage
+// const darkmode = localStorage.getItem('darkmode');
+
+// // If darkmode is true, set the dark mode theme
+// if (darkmode === 'true') {
+//   setLightMode();
+//   document.getElementById('darkmood_img').src = 'images/Controls/moon.png';
+// } else {
+//   setDarkMode();
+//   document.getElementById('darkmood_img').src = 'images/Controls/sun.png';
+// }
+
+// // Add event listener to the darkmode image
+// darkmood_img.onclick = toggleMode;
+
+
+
+
+
+
+.bar,
+.barAfter{
+    width: 50px;
+    height: 3px;
+    background-color: var(--white);
+    margin: 10px 0;
+    transition: all 0.9s ease;
+
+}
+
+.bar:nth-child(1) {
+    width: 50px;
+
+}
+
+.bar:nth-child(2) {
+    width: 25px;
+
+
+}
+
+.bar:nth-child(3) {
+    width: 30px;
+}
+
+
+
+.barAfter:nth-child(1) {
+    width: 50px;
+    transform: rotate(40deg) translate(8px,10px)
+
+}
+
+.barAfter:nth-child(2) {
+    width: 0px;
+    visibility: hidden;
+
+}
+
+.barAfter:nth-child(3) {
+    width: 50px;
+    transform: rotate(-50deg) translate(9px, -10px);
+} */
 
 
 

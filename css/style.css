@@ -11,17 +11,25 @@
 
 
 
-/* variables */
+/* Css variables */
 :root {
-	--main-color: #352970;
-	--Sec-color: #7257fa;
-    --glass-bac:#7257fa73;
-	--Nav-color: #352970f5;
-    --text-color:#1D1934;
-    --white:#fff;
-    --black:#000;
-    --home-background:url("../images/download (1).png") no-repeat center;
-    --opa-color:#d7d9fd;
+        --main-color: #4a3b95;
+        --Sec-color: #7257fa;
+        --glass-bac:#7257fa73;
+        --Nav-color: #352970f5;
+        --text-color:#1D1934;
+        --white:#fff;
+        --black:#000;
+        --opa-color:#d7d9fd;
+        --transition:all 0.8s ease-in-out;
+        --timeline_item_bg: rgba(255, 255, 255, 0.373);
+        --toggle-mood:#ffffffe4;
+        --home-background:url("../images/download (1).png") no-repeat center;
+        --timeline-background:url("../images/6.webp") no-repeat center;
+        --projects-background:url("../images/download (1).png") no-repeat center;
+        /* --home-personal-img:url("../images/Mostafa.png") no-repeat center;
+        --home-personal-img:url("../images/mostafa2.png") no-repeat center; */
+        
 }
 
 /* declare them using var(...) */
@@ -43,9 +51,10 @@ html {
 }
 
 body{ 
-    /* background-color: #E3E7F3!important;
-    background: url("../images/download\ \(1\).png") no-repeat center center fixed; */
+background-color: var(--toggle-mood)!important;
+    
     position: relative;
+    transition: var(--transition);
 }
 
 body::-webkit-scrollbar {
@@ -88,11 +97,10 @@ body::-webkit-scrollbar-thumb {
     filter: blur(2.5px);
 }
 
-.socialmedia,
+/* .socialmedia,
 .socialmediaActive{
     width: 50px;
     height: 50px;
-    /* border-radius: 50%; */
     background-color: var(--Sec-color);
     position: fixed;
    top: 16%;
@@ -107,15 +115,13 @@ body::-webkit-scrollbar-thumb {
     width: 400px;
     height: 400px;
     z-index: 111;
-}
+} */
 
 .title-Text h2 {
     color: var(--Sec-color);
     font-weight: 900 !important;
     font-size: 35px;
-    font-family: 'Shantell Sans', cursive ;
     font-family: 'Concert One', cursive;
-    /* font-family: 'Padauk', sans-serif; */
 }
 .title-Text p{
     color: var(--text-color);
@@ -124,12 +130,78 @@ body::-webkit-scrollbar-thumb {
     font-family: 'Padauk', sans-serif;
 }
 
+/* * //////////////style-switcher/////////////// */
+/* * //////////////style-switcher/////////////// */
+/* * //////////////style-switcher/////////////// */
+
+.style-switcher{
+    position: fixed;
+    top: 20px;
+    right: 0;
+    z-index: 10;
+    background-color: var(--main-color);
+    padding: 15px;
+    border: 1px solid var(--Sec-color);
+    border-right:none ;
+    border-radius: 0 0 0 5px;
+    transform: translateX(100%);
+    transition: all 0.3s ease;
+    width: 150px;
+}
+
+.style-switcher.open_controls {
+    transform: translateX(0);
+    display: block;
+}
+
+.style-switcher img{
+    width: 50px ;
+    height: 50px;
+}
+
+.style-switcher p{
+font-size: 12px;
+margin-top: 0;
+color: var(--text-color);
+margin-bottom:5px ;
+padding-bottom: 5px;
+border-bottom: 1px solid var(--main-color) ;
+
+}
+
+
+.toggle-style-switcher{
+position: absolute;
+width: 45px;
+height: 45px;
+background-color: var(--Nav-color);
+left: -46px;
+top: -1px;
+border-right: none;
+border: 1px solid #d4d4e3 ;
+text-align: center;
+cursor: pointer;
+border-radius: 5px 0 0 5px;
+    
+}
+
+.toggle-style-switcher .icon {
+    color: var(--white);
+    font-size: 20px;
+    margin-top: 12px;
+
+}
+
+
+
+
 /* ///////////////////////////////////////////////////////// */
 /* ///////////////////////////////////////////////////////// */
 /* ///////////////////////////////////////////////////////// */
 
 .My_breaf{
     width: 100%;
+    height: auto;
     position: fixed;
     z-index: 11;
     top: 0;
@@ -211,6 +283,8 @@ body::-webkit-scrollbar-thumb {
     overflow: hidden;
     background: var(--home-background);
     background-size: cover;
+    transition: var(--transition);
+
 
 }
 
@@ -224,49 +298,6 @@ body::-webkit-scrollbar-thumb {
   
 }
 
-.bar,
-.barAfter{
-    width: 50px;
-    height: 3px;
-    background-color: var(--white);
-    margin: 10px 0;
-    transition: all 0.9s ease;
-
-}
-
-.bar:nth-child(1) {
-    width: 50px;
-
-}
-
-.bar:nth-child(2) {
-    width: 25px;
-
-
-}
-
-.bar:nth-child(3) {
-    width: 30px;
-}
-
-
-
-.barAfter:nth-child(1) {
-    width: 50px;
-    transform: rotate(40deg) translate(8px,10px)
-
-}
-
-.barAfter:nth-child(2) {
-    width: 0px;
-    visibility: hidden;
-
-}
-
-.barAfter:nth-child(3) {
-    width: 50px;
-    transform: rotate(-50deg) translate(9px, -10px);
-}
 
 
 nav{
@@ -521,7 +552,7 @@ nav.open {
     }
     
 .above-inner p {
-    font-family: 'Gaegu', cursive;
+    font-family: 'Padauk', sans-serif;
     color: var(--text-color);
     font-size: 22px;
     font-weight: 400;
@@ -530,8 +561,11 @@ nav.open {
 .above-inner h5 {
     color: var(--Sec-color);
     font-family: 'Concert One', cursive;
-    font-weight: 600;
+    /* font-weight: 600; */
     font-size: 30px;
+    background: transparent;
+    color: transparent;
+    -webkit-text-stroke: 1px var(--main-color);
 }
 
 .about-inner {
@@ -548,8 +582,12 @@ nav.open {
 .text h2 {
     margin-bottom: 20px;
     font-size: 50px;
-    color: var(--main-color);
-    font-family: 'Vibur', cursive;
+    /* color: var(--main-color); */
+    font-family: 'Concert One', cursive;
+    background: transparent;
+    color: transparent;
+    -webkit-text-stroke: 1px var(--main-color);
+
 }
 
 .text .text-container,
@@ -571,7 +609,7 @@ nav.open {
     padding: 10px;
     color: var(--Sec-color);
     font-size: 18px;
-    font-family: 'Gaegu', cursive;
+    font-family: 'Padauk', sans-serif;
 
 }
 
@@ -601,7 +639,7 @@ nav.open {
   border: 2px solid var(--Sec-color);
   border-radius: 10px;
   box-shadow: inset 0 0 0 0 var(--main-color);
-      font-family: 'Gaegu', cursive;
+  font-family: 'Padauk', sans-serif !important;
 
 }
 
@@ -664,8 +702,8 @@ nav.open {
   border-radius: 5px;
   opacity: 0.8;
   letter-spacing: 1px;
-  font-family: 'Shantell Sans', cursive;
-transform: scale(1 , 1);
+  font-family: 'Padauk', sans-serif;
+  transform: scale(1 , 1);
 }
 
 .tabbutn:hover {
@@ -685,7 +723,7 @@ transform: scale(1 , 1);
     width: 100%;
     height: auto;
     position: relative;
-    background-color: transparent;
+    /* background-color: var(--toggle-mood); */
 
 }
 
@@ -719,12 +757,12 @@ transform: scale(1 , 1);
 .timeline {
     width: 100%;
     height: auto;
-    background: url("../images/6.webp") no-repeat center;
+    background: var(--timeline-background);
     background-size: cover;
 }
 
 .main_timeLine{
-    background: rgba(255, 255, 255, 0.373);
+    background:  var(--timeline_item_bg);
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 4px );
     -webkit-backdrop-filter: blur( 4px );
@@ -793,7 +831,7 @@ transform: scale(1 , 1);
     width: 100%;
     height: auto;
     position: relative;
-    background: url("../images/download\ \(1\).png") no-repeat center;
+    background: var(--projects-background);
     background-size: cover;
 
 }
