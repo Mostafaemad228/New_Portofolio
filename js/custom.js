@@ -10,7 +10,8 @@ let NavTitle = document.querySelector('.Nav-Title');
 let bars = document.querySelectorAll('.bar');
 let bigPhoto = document.querySelector('.bigPhoto');
 let smallPhoto = document.querySelectorAll('.smallPhoto');
-let socialmedia = document.querySelector('.socialmedia');
+let to_up = document.querySelector('.to_up');
+let rocket_lunch = document.querySelector('.rocket_lunch');
 let meBtn = document.querySelector('.meBtn');
 let Personal_Btn = document.querySelector('.PersonalBtn');
 let text_container = document.querySelector('.text-container');
@@ -78,8 +79,6 @@ Close_Breaf.addEventListener("click", function () {
 
 
 // ? ////////////////////// chang my photos    ///////////////////////////
-// ? ////////////////////// chang my photos    ///////////////////////////
-// ? /////////////////////  chang my photos   ///////////////////////////
 smallPhoto.forEach(el => {
   el.addEventListener("click", function () {
     bigPhoto.setAttribute("src", this.getAttribute('src'))
@@ -87,11 +86,27 @@ smallPhoto.forEach(el => {
 });
 
 
+// ? /////////////////////  lunch rocket (go to up)   ///////////////////////////
 
-// socialmedia.onclick = function (e) {
-//   socialmedia.classList.toggle("socialmediaActive");
-// };
+to_up.onclick = function (e) {
 
+  rocket_lunch.style.display = "flex";
+
+  setTimeout(() => {
+    rocket_lunch.style.display = "none";
+  }, 1000);
+
+};
+
+
+
+
+
+
+
+
+// ? /////////////////////  change div to show personal information
+  // my photos   ///////////////////////////
 
 meBtn.onclick = function (e) {
   personalData.style.display = "none";
@@ -145,31 +160,37 @@ function setLightMode() {
   root.style.setProperty('--main-color', '#4a3b95');
   root.style.setProperty('--Sec-color', '#7257fa');
   root.style.setProperty('--glass-bac', '#7257fa73');
-  root.style.setProperty('--text-color', '#AFABB3');
+  root.style.setProperty('--text-color', '#320F55');
   root.style.setProperty('--white', '#fff');
   root.style.setProperty('--black', '#000');
   root.style.setProperty('--toggle-mood', '#ffffffe4');
   root.style.setProperty('--opa-color', '#d7d9fd');
   root.style.setProperty('--Nav-color', '#352970f5');
+  root.style.setProperty('--brightness', 'brightness(200%)');
   root.style.setProperty('--timeline_item_bg', 'rgba(255, 255, 255, 0.373)');
   root.style.setProperty('--home-background', 'url("../images/download (1).png") no-repeat center');
   root.style.setProperty('--projects-background', 'url("../images/download (1).png") no-repeat center');
   root.style.setProperty('--timeline-background', 'url("../images/6.webp") no-repeat center');
+  // skills.removeAttribute('data-vide-bg');
+  // skills.setAttribute('data-vide-bg', 'images/video/projects.webm');
+
 }
       
 
 
 function setDarkMode() {
   root.style.setProperty('--toggle-mood', '#10051C');
-  root.style.setProperty('--main-color', '#962DFF');
-  root.style.setProperty('--Sec-color', '#B973FF');
+  root.style.setProperty('--main-color', '#B973FF');
+  root.style.setProperty('--Sec-color', '#D0A1FF');
   root.style.setProperty('--text-color', '#fff');
-  root.style.setProperty('--Nav-color', '#210A38');
+  root.style.setProperty('--Nav-color', '#210a38f3');
+  root.style.setProperty('--brightness', 'brightness(100%)');
   root.style.setProperty('--opa-color', '#210A38');
   root.style.setProperty('--home-background', 'none');
   root.style.setProperty('--timeline-background', 'none');
   root.style.setProperty('--projects-background', 'none');
   root.style.setProperty('--timeline_item_bg', 'rgba(148, 70, 244, 0.063)');
+
 }
 
 function toggleMood() {

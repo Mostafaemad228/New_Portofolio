@@ -17,16 +17,18 @@
         --Sec-color: #7257fa;
         --glass-bac:#7257fa73;
         --Nav-color: #352970f5;
-        --text-color:#1D1934;
+        --text-color:#320F55;
         --white:#fff;
         --black:#000;
         --opa-color:#d7d9fd;
+        --brightness:brightness(200%);
         --transition:all 0.8s ease-in-out;
         --timeline_item_bg: rgba(255, 255, 255, 0.373);
         --toggle-mood:#ffffffe4;
         --home-background:url("../images/download (1).png") no-repeat center;
         --timeline-background:url("../images/6.webp") no-repeat center;
         --projects-background:url("../images/download (1).png") no-repeat center;
+
         /* --home-personal-img:url("../images/Mostafa.png") no-repeat center;
         --home-personal-img:url("../images/mostafa2.png") no-repeat center; */
         
@@ -76,46 +78,65 @@ body::-webkit-scrollbar-thumb {
 }
 
 
-
-
-.neon {
-    letter-spacing: 4px;
-    display: inline-block;
-    position: relative;
-    filter: brightness(500%);
-    font-weight: 900;
-    font-family: 'Londrina Outline',cursive !important;
-    color: var(--text-color);
-}
-
-.neon::before {
-    content: attr(data-text);
-    position: absolute;
-    left: 0;
-    right: 0;
-    mix-blend-mode: difference !important;
-    filter: blur(2.5px);
-}
-
-/* .socialmedia,
-.socialmediaActive{
+.to_up{
     width: 50px;
     height: 50px;
     background-color: var(--Sec-color);
+    border-radius: 10px;
     position: fixed;
-   top: 16%;
-    left: 2%;
-    z-index: 1;
+    top: 90%;
+    right: 10px;
+    z-index: 111;
     text-align: center;
-    overflow: hidden;
     transition: all 1s ease-in-out;
+    
+}
+/* .fa-rocket{
+    font-size: 35px;
+    margin: 10px auto ;
+    color: var(--opa-color);
+} */
+
+
+.rocket_lunch{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    z-index: 111;
+    animation: shake 0.5s ease-in-out 2;
+    align-items: flex-end !important;
+    justify-content: center !important;
 }
 
-.socialmediaActive{
-    width: 400px;
-    height: 400px;
-    z-index: 111;
-} */
+
+
+@keyframes shake {
+  0% {
+    -webkit-transform: translateX(0);
+  }
+
+  20% {
+    -webkit-transform: translateX(-10px);
+  }
+
+  40% {
+    -webkit-transform: translateX(10px);
+  }
+
+  60% {
+    -webkit-transform: translateX(-10px);
+  }
+
+  80% {
+    -webkit-transform: translateX(10px);
+  }
+
+  100% {
+    -webkit-transform: translateX(0);
+  }
+}
+
 
 .title-Text h2 {
     color: var(--Sec-color);
@@ -138,7 +159,7 @@ body::-webkit-scrollbar-thumb {
     position: fixed;
     top: 20px;
     right: 0;
-    z-index: 10;
+    z-index: 1111111;
     background-color: var(--main-color);
     padding: 15px;
     border: 1px solid var(--Sec-color);
@@ -323,7 +344,7 @@ nav.open {
     transform: translateX(-100%);
 } */
 
-.navbar-brand h1 {
+.navbar-brand .Nav-Title {
     font-size: 100px;
     opacity: 0.7;
     font-weight: 500;
@@ -414,9 +435,27 @@ nav.open {
 
 .welcomediv h1 {
     letter-spacing: 2px;
-    color: var(--main-color);
+    color: var(--main-color) !important;
     font-weight: 400;
     font-family: 'Concert One', cursive;
+}
+
+.neon {
+    letter-spacing: 4px;
+    display: inline-block;
+    position: relative;
+    filter: var(--brightness);
+    font-weight: 900;
+    font-family: 'Londrina Outline',cursive !important;
+}
+
+.neon::before {
+    content: attr(data-text);
+    position: absolute;
+    left: 0;
+    right: 0;
+    mix-blend-mode: difference !important;
+    filter: blur(2.5px);
 }
 
 .welcomediv h3 {
@@ -586,7 +625,7 @@ nav.open {
     font-family: 'Concert One', cursive;
     background: transparent;
     color: transparent;
-    -webkit-text-stroke: 1px var(--main-color);
+    -webkit-text-stroke: 1px var(--Sec-color);
 
 }
 
@@ -694,7 +733,7 @@ nav.open {
   width: auto;
   border-bottom: 3px solid var(--Sec-color) ;
   border-right: 3px solid var(--Sec-color) ;
-  background: var(--white);
+  background: var(--opa-color);
   color:  var(--main-color);
   font-weight: 900;
   text-transform: uppercase;
@@ -1097,6 +1136,13 @@ nav.open {
         width: 100% !important;
     }
 
+    .navbar-brand .Nav-Title {
+        font-size: 50px;
+    }
+    /* .rocket_lunch img{
+        top: 55%;
+        left: 0%;
+    } */
 
    
 }
@@ -1105,6 +1151,10 @@ nav.open {
 
 @media screen and (max-width: 767px) {
 
+    .rocket_lunch img{
+        top: 55%;
+        left: 0%;
+    }
 
 }
 
