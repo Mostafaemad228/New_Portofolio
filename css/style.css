@@ -91,12 +91,6 @@ body::-webkit-scrollbar-thumb {
     transition: all 1s ease-in-out;
     
 }
-/* .fa-rocket{
-    font-size: 35px;
-    margin: 10px auto ;
-    color: var(--opa-color);
-} */
-
 
 .rocket_lunch{
     width: 100%;
@@ -183,7 +177,7 @@ body::-webkit-scrollbar-thumb {
 .style-switcher p{
 font-size: 12px;
 margin-top: 0;
-color: var(--text-color);
+color: var(--white);
 margin-bottom:5px ;
 padding-bottom: 5px;
 border-bottom: 1px solid var(--main-color) ;
@@ -871,7 +865,7 @@ nav.open {
     height: auto;
     position: relative;
     background: var(--projects-background);
-    background-size: cover;
+    background-size: contain;
 
 }
 
