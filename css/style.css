@@ -13,25 +13,22 @@
 
 /* Css variables */
 :root {
-        --main-color: #4a3b95;
-        --Sec-color: #7257fa;
-        --glass-bac:#7257fa73;
-        --Nav-color: #352970f5;
-        --text-color:#320F55;
-        --white:#fff;
-        --black:#000;
-        --opa-color:#d7d9fd;
-        --brightness:brightness(200%);
-        --transition:all 0.8s ease-in-out;
-        --timeline_item_bg: rgba(255, 255, 255, 0.373);
-        --toggle-mood:#ffffffe4;
-        --home-background:url("../images/download (1).png") no-repeat center;
-        --timeline-background:url("../images/6.webp") no-repeat center;
-        --projects-background:url("../images/download (1).png") no-repeat center;
-
-        /* --home-personal-img:url("../images/Mostafa.png") no-repeat center;
-        --home-personal-img:url("../images/mostafa2.png") no-repeat center; */
-        
+    --toggle-mood:#ffffffe4;
+    --main-color: #4a3b95;
+    --Sec-color: #7257fa;
+    --glass-bac:#7257fa73;
+    --Nav-color: #352970f5;
+    --text-color:#320F55;
+    --white:#fff;
+    --black:#000;
+    --opa-color:#d7d9fd;
+    --breavHead:#ffffffe4;
+    --brightness:brightness(200%);
+    --transition:all 0.8s ease-in-out;
+    --timeline_item_bg: rgba(255, 255, 255, 0.373);
+    --home-background:url("../images/download (1).png") no-repeat center;
+    --timeline-background:url("../images/6.webp") no-repeat center;
+    --projects-background:url("../images/download (1).png") no-repeat center;
 }
 
 /* declare them using var(...) */
@@ -235,14 +232,43 @@ border-radius: 5px 0 0 5px;
 .developer_breaf{
     height: auto;
     border-radius: 10px;
-    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
     color: var(--black);
     border: 2px solid #ddd;
 }
+.breaf_body{
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+    height: 500px;
+    overflow-x: none;
+    overflow-y: scroll;
+}
+
+.breaf_body{ 
+background-color: var(--toggle-mood)!important;
+    
+    position: relative;
+    transition: var(--transition);
+}
+
+.breaf_body::-webkit-scrollbar {
+    width: 2px;
+    background-color: var(--Sec-color);
+}
+
+.breaf_body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.breaf_body::-webkit-scrollbar-thumb {
+    background-color: var(--main-color) !important;
+    outline: 1px solid var(--main-color);
+}
+
 
 .White_head{
-        border-top-left-radius:10px ;
-        border-top-right-radius:10px ;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px ;
+    background-color: var(--breavHead);
+    color: var(--main-color);
 
 }
 .circles span{
@@ -572,15 +598,13 @@ nav.open {
     width: 180px;
     height: 180px;
     position: absolute;
-    left: 10px;
+    left: 0;
     z-index: -1;
 }
 
 .above-inner h2 {
     font-weight: 900;
     color: var(--Sec-color);
-    background: url("../images/download\ \(5\).webp") no-repeat center;
-    background-size: contain;
     font-family: 'Concert One', cursive;
     }
     
@@ -607,10 +631,7 @@ nav.open {
 
 }
 
-.text {
-    background: url(../images/banners/about.webp) no-repeat center center;
-    background-size: cover
-}
+
 
 .text h2 {
     margin-bottom: 20px;
@@ -687,7 +708,7 @@ nav.open {
   background-color: var(--Sec-color);
 }
 
-.cssbuttons-io-button {
+.download_btn {
   position: relative;
   display: inline-block;
   margin: 15px;
@@ -696,29 +717,46 @@ nav.open {
   font-size: 18px;
   letter-spacing: 1px;
   text-decoration: none;
-  color: var(--white);
-  background: var(--main-color);
+  color: var(--main-color);
+  background: transparent;
   cursor: pointer;
   transition: ease-out 0.5s;
   border: 2px solid var(--Sec-color);
   border-radius: 10px;
   box-shadow: inset 0 0 0 0 var(--main-color);
-      font-family: 'Gaegu', cursive;
-
+  font-family: 'Padauk', sans-serif !important;
+  overflow: hidden;
 }
 
-.cssbuttons-io-button svg {
- margin-right: 8px;
+.download_btn:before {
+ content: "";
+ position: absolute;
+ z-index: -1;
+ background: var(--main-color);
+ height: 150px;
+ width: 250px;
+ border-radius: 50%;
 }
 
-.cssbuttons-io-button:hover {
- box-shadow: 0 0.5em 1.5em -0.5em #4d36d0be;
+.download_btn:hover {
+ color: #fff;
 }
 
-.cssbuttons-io-button:active {
- box-shadow: 0 0.3em 1em -0.5em #4d36d0be;
+.download_btn:before {
+ top: 100%;
+ left: 100%;
+ transition: all .7s;
 }
 
+.download_btn:hover:before {
+ top: -30px;
+ left: -30px;
+}
+
+.download_btn:active:before {
+ background: var(--main-color);
+ transition: background 0s;
+}
 
 
 .tabbutn {
@@ -1015,7 +1053,7 @@ nav.open {
 }
 
 .Show_More .Projects_btns span{
-    color:#5a189a;
+    color:var(--main-color);
 
 }
 

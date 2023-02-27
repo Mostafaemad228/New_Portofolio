@@ -156,27 +156,29 @@ function setLightMode() {
   root.style.setProperty('--toggle-mood', '#ffffffe4');
   root.style.setProperty('--opa-color', '#d7d9fd');
   root.style.setProperty('--Nav-color', '#352970f5');
+  root.style.setProperty('--breavHead', '#ffffffe4');
   root.style.setProperty('--brightness', 'brightness(200%)');
-  root.style.setProperty('--timeline_item_bg', 'rgba(255, 255, 255, 0.373)');
   root.style.setProperty('--home-background', 'url("../images/download (1).png") no-repeat center');
-  root.style.setProperty('--projects-background', 'url("../images/download (1).png") no-repeat center');
   root.style.setProperty('--timeline-background', 'url("../images/6.webp") no-repeat center');
+  root.style.setProperty('--timeline_item_bg', 'rgba(255, 255, 255, 0.373)');
+  root.style.setProperty('--projects-background', 'url("../images/download (1).png") no-repeat center');
 }
       
 
 
 function setDarkMode() {
-  root.style.setProperty('--toggle-mood', '#10051C');
+  root.style.setProperty('--toggle-mood', '#0F001F');
   root.style.setProperty('--main-color', '#B973FF');
   root.style.setProperty('--Sec-color', '#D0A1FF');
   root.style.setProperty('--text-color', '#fff');
   root.style.setProperty('--Nav-color', '#210a38f3');
-  root.style.setProperty('--brightness', 'brightness(100%)');
   root.style.setProperty('--opa-color', '#210A38');
-  root.style.setProperty('--home-background', 'none');
-  root.style.setProperty('--timeline-background', 'none');
-  root.style.setProperty('--projects-background', 'none');
-  root.style.setProperty('--timeline_item_bg', 'rgba(148, 70, 244, 0.063)');
+  root.style.setProperty('--breavHead', '#0F001F');
+  root.style.setProperty('--brightness', 'brightness(100%)');
+  root.style.setProperty('--home-background', 'url("../images/dark/1.jpg") no-repeat center fixed');
+  root.style.setProperty('--timeline-background', 'url("../images/dark/2.jpg")no-repeat center fixed');
+  root.style.setProperty('--timeline_item_bg', 'rgba(15, 0, 31, 0.765)');
+  root.style.setProperty('--projects-background', 'url("../images/dark/1.jpg") no-repeat center ');
 
 }
 
@@ -356,7 +358,7 @@ function displayProjectsItems() {
                     </div>`
   
 }
-  console.log("Skills Data has been displayed in html showed");
+  console.log("projects Data has been displayed in html showed");
 }
 
 displayProjectsItems();

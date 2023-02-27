@@ -35,6 +35,15 @@
     padding: 10px;
 }
 
+.AllProject_item h1{
+    color: var(--main-color) !important;
+    font-family: 'Bungee Shade', cursive !important;
+    font-size: 30px;
+    line-height: 50px;
+    z-index: 1 !important;
+    opacity: 0.8 !important;
+    font-family: 'Rubik', sans-serif;
+}
 
 
 .projectslinks .project_link{
@@ -52,7 +61,7 @@
 
 .projectsData span{
    font-size: 18px !important;
-       font-family: 'Padauk', sans-serif;
+   font-family: 'Padauk', sans-serif;
 
 }
 
