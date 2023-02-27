@@ -309,7 +309,7 @@ projects_data = [
   },
   {
     project_img: "images/projects/Coffee.png",
-    project_demo_link: "https://mostafaemad228.github.io/Coffee-website/",
+    project_demo_link: "https://mostafaemad228.github.io/coffe-website/",
     project_code_link: "https://github.com/Mostafaemad228/coffe-website",
   },
   {
