@@ -479,11 +479,38 @@
 
 <div  class="d-flex justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
         <!-- <img src="images/end_Section_Image.gif" class="img-fluid" alt=""> -->
+        <!-- style="width:100%; height: 500px;" data-vide-bg="images/video/promo.mp4" -->
         <div class="container">
             <div class="row m-auto ">
-                <div class="col-lg-12 ">
-                    <div class="col-lg-10 m-auto" style="width:100%; height: 500px;" data-vide-bg="images/video/promo.mp4"></div>
-                </div>
+
+                    <div class="col-lg-6 p-3  m-auto" >
+                        <video width="100%" height="100%" controls>
+                            <source src="images/video/promo.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+                    <div class="col-lg-6 p-3 text-left" >
+                        
+                            
+                            <h3>Contact me</h3>
+                            
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="fullName" placeholder="Enter your name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="email_id" placeholder="Enter your email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <textarea class="form-control" id="message" rows="5" placeholder="Enter your message" required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn tabbutn" onclick="sendEmail()">Submit</button>
+                            
+
+                    </div>
+
             </div>
         </div>
 </div>
@@ -574,6 +601,7 @@
 <!-- fontawsome -->
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script src="js/plugins/jquery.vide.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 <!-- main scripts --> 
 <script src="js/custom.js"></script>
 
@@ -589,8 +617,7 @@ $(window).on('load', function () {
 
  
 
-
-
+   
 
 
 
@@ -599,6 +626,41 @@ AOS.init({
     duration: 3000,
     once: true,
 });
+
+
+
+
+
+
+
+
+
+(function(){
+      emailjs.init('Uo97z0iumflYshpO1');
+   })();
+   
+   function sendEmail(event) {
+      
+      var fullName = document.getElementById("fullName").value;
+      var email_id = document.getElementById("email_id").value;
+      var message = document.getElementById("message").value;
+      
+      var templateParams = {
+         fullName: fullName,
+         email_id: email_id,
+         message: message
+      };
+      
+      emailjs.send('service_94afucb', 'template_0t90h8e', templateParams)
+         .then(function(response) {
+            alert('SUCCESS!', response.status, response.text);
+         }, function(error) {
+            alert('FAILED...', error);
+         });
+   }
+   
+
+
 
 
 

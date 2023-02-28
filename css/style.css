@@ -27,8 +27,8 @@
     --transition:all 0.8s ease-in-out;
     --timeline_item_bg: rgba(255, 255, 255, 0.373);
     --home-background:url("../images/download (1).png") no-repeat center;
-    --timeline-background:url("../images/6.webp") no-repeat center;
-    --projects-background:url("../images/download (1).png") no-repeat center;
+    --timeline-background:url("../images/6.webp") no-repeat center fixed;
+    --projects-background:url("../images/download (1).png") no-repeat center ;
 }
 
 /* declare them using var(...) */
@@ -1061,6 +1061,63 @@ nav.open {
  color: var(--white);
  transition: 0.3s;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS CODE */
+
+
+form {
+  padding: 20px;
+}
+
+form h3 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-family: 'Concert One', cursive;
+    color: var(--main-color);
+}
+
+input.form-control,
+textarea {
+  margin-bottom: 20px;
+  border-radius: 0px;
+  border: none !important;
+  border-bottom:1px solid var(--main-color) !important;
+  background-color: transparent !important;
+}
+
+input.form-control::placeholder,
+textarea::placeholder {
+    color: var(--Sec-color) !important;
+}
+
+
+.btn-primary {
+  background-color: var(--main-color);
+  border-color: var(--white);
+}
+
+.btn-primary {
+  background-color: var(--main-color);
+  border-color: var(--white);
+}
+
 /* //////////////////////   footer   //////////////////// */
 /* //////////////////////   footer   //////////////////// */
 /* //////////////////////   footer   //////////////////// */

@@ -158,8 +158,8 @@ function setLightMode() {
   root.style.setProperty('--Nav-color', '#352970f5');
   root.style.setProperty('--breavHead', '#ffffffe4');
   root.style.setProperty('--brightness', 'brightness(200%)');
-  root.style.setProperty('--home-background', 'url("../images/download (1).png") no-repeat center');
-  root.style.setProperty('--timeline-background', 'url("../images/6.webp") no-repeat center');
+  root.style.setProperty('--home-background', 'url("../images/download (1).png") no-repeat center fixed');
+  root.style.setProperty('--timeline-background', 'url("../images/6.webp") no-repeat center fixed');
   root.style.setProperty('--timeline_item_bg', 'rgba(255, 255, 255, 0.373)');
   root.style.setProperty('--projects-background', 'url("../images/download (1).png") no-repeat center');
 }
@@ -178,7 +178,7 @@ function setDarkMode() {
   root.style.setProperty('--home-background', 'url("../images/dark/1.jpg") no-repeat center fixed');
   root.style.setProperty('--timeline-background', 'url("../images/dark/2.jpg")no-repeat center fixed');
   root.style.setProperty('--timeline_item_bg', 'rgba(15, 0, 31, 0.765)');
-  root.style.setProperty('--projects-background', 'url("../images/dark/1.jpg") no-repeat center ');
+  root.style.setProperty('--projects-background', 'url("../images/dark/1.jpg") no-repeat center fixed ');
 
 }
 
@@ -311,8 +311,8 @@ projects_data = [
   },
   {
     project_img: "images/projects/Coffee.png",
-    project_demo_link: "https://mostafaemad228.github.io/coffe-website/",
-    project_code_link: "https://github.com/Mostafaemad228/coffe-website",
+    project_demo_link: "https://mostafaemad228.github.io/coffee-website/",
+    project_code_link: "https://github.com/Mostafaemad228/coffee-website",
   },
   {
     project_img: "images/projects/calculator.PNG",

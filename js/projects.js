@@ -40,7 +40,7 @@ all_projects_data = [
     {
         project_img: "images/projects/All_icons/icons8-coffee-pot-64.png",
         project_name: "Kahwa website",
-        project_demo_link: "https://mostafaemad228.github.io/coffe-website/",
+        project_demo_link: "https://mostafaemad228.github.io/coffee-website/",
         project_code_link: "https://github.com/Mostafaemad228/coffe-website",
     }, {
         project_img: "images/projects/All_icons/icons8-app-64.png",
