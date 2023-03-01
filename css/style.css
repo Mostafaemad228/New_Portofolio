@@ -75,7 +75,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 
-.to_up{
+.to_up,
+.to_up.sticky{
     width: 50px;
     height: 50px;
     background-color: var(--Sec-color);
@@ -86,7 +87,15 @@ body::-webkit-scrollbar-thumb {
     z-index: 111;
     text-align: center;
     transition: all 1s ease-in-out;
+    visibility: hidden;
+    opacity: 0;
     
+}
+
+.to_up.sticky{
+    visibility: visible;
+    opacity: 1;
+    transition: var(--transition);
 }
 
 .rocket_lunch{
@@ -1063,34 +1072,21 @@ nav.open {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* CSS CODE */
-
-
-form {
+.form {
   padding: 20px;
 }
 
-form h3 {
-    text-align: center;
+.form h3 {
     margin-bottom: 30px;
     font-size: 30px;
     font-family: 'Concert One', cursive;
     color: var(--main-color);
+}
+
+.form p {
+    font-size: 15px;
+    font-family: 'Padauk', sans-serif;
+    color: var(--text-color);
 }
 
 input.form-control,
@@ -1105,17 +1101,6 @@ textarea {
 input.form-control::placeholder,
 textarea::placeholder {
     color: var(--Sec-color) !important;
-}
-
-
-.btn-primary {
-  background-color: var(--main-color);
-  border-color: var(--white);
-}
-
-.btn-primary {
-  background-color: var(--main-color);
-  border-color: var(--white);
 }
 
 /* //////////////////////   footer   //////////////////// */
@@ -1228,10 +1213,11 @@ textarea::placeholder {
     .navbar-brand .Nav-Title {
         font-size: 50px;
     }
-    /* .rocket_lunch img{
-        top: 55%;
-        left: 0%;
-    } */
+    .above-img {
+        width: 80px;
+        height: 80px;
+      
+    }
 
    
 }

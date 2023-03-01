@@ -1,6 +1,4 @@
-
-  
-// ! defining 
+ // ! defining 
 const body = document.getElementsByTagName('body')[0];
 let toggler = document.querySelector(".MENU_toggler");
 let nav = document.querySelector("nav");
@@ -35,20 +33,7 @@ let projects_container = document.querySelector('.projects_container');
 // ! ///////////////// menue togller ////////////////
 toggler.onclick = function(e) {
   nav.classList.toggle("open");
-  bars.forEach(el => {
-    el.classList.toggle("barAfter")
-  });
 }
-
-// ! //////////////////// change menue togller on open and close /////////////////////////////
-nav.onclick = function (e) {
-  nav.classList.toggle("open");
-  bars.forEach(el => {
-    el.classList.toggle("barAfter")
-  });
-  NavTitle.textContent = "Hello";
-}
-
 // ! //////////////////// close the nav bar on click any navlink  /////////////////////////////
 navlink.forEach(el => {
   el.addEventListener("click", function () {
@@ -91,6 +76,13 @@ smallPhoto.forEach(el => {
 
 // ! /////////////////////  lunch rocket (go to up)   ///////////////////////////
 
+// * show and hide up_to div 
+window.addEventListener("scroll", function () {
+  to_up.classList.toggle("sticky", window.scrollY > 400);
+});
+
+
+// * lunch the rocket /////////////////////////////////////
 to_up.onclick = function (e) {
 
   rocket_lunch.style.display = "flex";
@@ -274,7 +266,7 @@ function displaySkillsItems() {
   skills_arr.forEach((item) => {
     let Counter = 0;
     Skills_container.innerHTML += `
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 p-2" data-aos="fade-in" data-aos-delay="${200}" data-aos-duration="1000">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 p-2" data-aos="fade-in" data-aos-delay="${Counter+=200}" data-aos-duration="1000">
                 <div class=" p-2 skill_container">
                     <img src="${item.Skill_src}" class="img-fluid"   alt="">
                     <span>${item.Skill_name}</span>
@@ -310,7 +302,7 @@ projects_data = [
     project_code_link: "https://github.com/Mostafaemad228/makeup-glowing-website",
   },
   {
-    project_img: "images/projects/Coffee.png",
+    project_img: "images/projects/kahwa.png",
     project_demo_link: "https://mostafaemad228.github.io/coffee-website/",
     project_code_link: "https://github.com/Mostafaemad228/coffee-website",
   },
@@ -339,7 +331,7 @@ function displayProjectsItems() {
   projects_container.innerHTML = ``
   for (let i = 0; i < projects_data.length; i++) {
     projects_container.innerHTML +=`
-                  <div class="col-lg-4 p-3 mt-5 mb-3 text-center " data-aos="fade-in" data-aos-delay="${dur+200}" data-aos-duration="1400" >
+                  <div class="col-lg-4 p-3 mt-5 mb-3 text-center " data-aos="fade-in" data-aos-delay="${dur+=200}" data-aos-duration="1400" >
                          <h3 class="Project_num"> ${c++} </h3>
                          <div class="col-lg-12 p-0  project  ">
                             <div class="Project_inner shadow ">

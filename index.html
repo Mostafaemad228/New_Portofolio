@@ -35,9 +35,9 @@
 </div>
 <!-- ? Preloader end -->
 
-    <a href="#header" class="to_up">
-        <img src="images/Controls/icons8-arrow-up-64.png" class="img-fluid" alt="">
-    </a>
+<a href="#header" class="to_up">
+    <img src="images/Controls/icons8-arrow-up-64.png" class="img-fluid" alt="">
+</a>
 
 <section class="rocket_lunch text-center " style="display: none;" >
     <div class="container">
@@ -100,14 +100,13 @@
                         <div class="Line">
                             <h5 class="Describe"> > Mostafa.contactInfo</h5>
                             <p class="Answer">[
-                                " <span> <a class="text-lowercase" href = "mostafa.emad43285@gmail.com">Gmail</a> </span> " ,
-                                " <span><a href="#!"> LinkedIn </a></span> " ,
-                                " <span><a href="#!"> Github </a></span> " ,
-                                " <span><a href="#!"> Facebook </a></span> " ,
-                                " <span><a href="#!"> whatsapp </a></span> " 
+                                " <span><a target="_blank" href="mailto:mostafa.emad43285@gmail.com"> Gmail</a> </span> " ,
+                                " <span><a target="_blank" href="https://github.com/Mostafaemad228"> Github </a></span> " ,
+                                " <span><a target="_blank" href="https://www.linkedin.com/in/mostafa-emad-gomaa-6449891a2/">  LinkedIn </a></span> " ,
+                                " <span><a target="_blank" href="https://wa.me/0201064691587">  whatsapp </a></span> " ,
+                                " <span><a target="_blank" href="https://www.facebook.com/mostafa.emadgomaa/">  Facebook  </a></span> " 
                             ] ;</p>
                         </div>
-
 
                         <div class="Line">
                             <h5 class="Describe"> > Mostafa.CV</h5>
@@ -156,9 +155,10 @@
     </a>
     <ul class="mt-5">
         <li class="nav-item mt-3"><a href="#header" class="nav-link" data-text="home"> <i class=" fas fa-home"></i> Home</a></li>
-        <li class="nav-item mt-3"><a href="#About" class="nav-link" data-text="about"> <i class=" fas fas fa-info-circle"></i> about</a></li>
-        <li class="nav-item mt-3"><a href="#skills" class="nav-link" data-text="skills"> <i class="fa fa-question-circle" aria-hidden="true"></i> skills</a></li>
-        <li class="nav-item mt-3"><a href="projects.html" class="nav-link" data-text="projects"> <i class="fa fa-magic" aria-hidden="true"></i> projects</a></li>
+        <li class="nav-item mt-3"><a href="#About" class="nav-link" data-text="about"> <i class="fa-regular fa-address-card"></i> about</a></li>
+        <li class="nav-item mt-3"><a href="#skills" class="nav-link" data-text="skills"> <i class="fa-solid fa-code"></i> skills</a></li>
+        <li class="nav-item mt-3"><a href="#timeline" class="nav-link" data-text="timeline"> <i class="fa-solid fa-question"></i> timeline</a></li>
+        <li class="nav-item mt-3"><a href="projects.html" class="nav-link" data-text="projects"> <i class="fa-solid fa-list-check"></i> projects</a></li>
         <li class="nav-item mt-3"><a href="#footer" class="nav-link" data-text="Contact"> <i class=" fas fa-address-book"></i> Contact</a></li>
         <!-- <li class="nav-item"><a href="login.html" class="nav-link" data-set="home"> <button class="butn1" > regestration </button> </a></li> -->
     </ul>
@@ -256,7 +256,7 @@
                     <div class="text">
                         <h2>the center of attention</h2>
                         <div class=" mt-4  d-flex justify-content-around "> 
-                            <a href="#!" class=" text-center text-decoration-none m-2  tabbutn  p-3 meBtn " >Me</a>
+                            <a href="#!" class=" text-center text-decoration-none m-2  tabbutn  p-3 meBtn " > story </a>
                             <a href="#!" class=" text-center text-decoration-none m-2  tabbutn  p-3 PersonalBtn " >Personal</a>
                         </div> 
 
@@ -284,8 +284,11 @@
                     <a href="docs/My_Resume.pdf" download=" My CV ">
                         <button class="download_btn"> Download CV </button>  
                     </a>
-                    <!-- <button class="butn2"> contact Me </button> -->
-                    <button class="butn2"> hire me... </button>
+
+                     <a href="#hire">
+                        <button class="butn2"> hire me... </button>
+                    </a>
+
                 </div>
             <!-- ? ////////////////////////////////////////////////////////////////////// -->
                 <div class="col-lg-6 photoSection" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1000">
@@ -477,7 +480,7 @@
 <!-- ???????????????????????????????????! Projects  ?????????????????????????????????? -->
 
 
-<div  class="d-flex justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
+<div id="hire" class="d-flex justify-content-center align-items-center"  data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
         <!-- <img src="images/end_Section_Image.gif" class="img-fluid" alt=""> -->
         <!-- style="width:100%; height: 500px;" data-vide-bg="images/video/promo.mp4" -->
         <div class="container">
@@ -489,10 +492,11 @@
                         </video>
                     </div>
 
-                    <div class="col-lg-6 p-3 text-left" >
+                    <div class="col-lg-6 p-3 text-left form" >
                         
                             
                             <h3>Contact me</h3>
+                            <p>Give me your feedback and tell me whatever you want from here and I will receive it in my email</p>
                             
                             <div class="form-group">
                                 <input type="text" class="form-control" id="fullName" placeholder="Enter your name" required>
@@ -506,7 +510,7 @@
                                 <textarea class="form-control" id="message" rows="5" placeholder="Enter your message" required></textarea>
                             </div>
                             
-                            <button type="submit" class="btn tabbutn" onclick="sendEmail()">Submit</button>
+                            <button type="submit" class="btn tabbutn" onclick="sendEmail()">mail me</button>
                             
 
                     </div>
@@ -614,11 +618,6 @@ $(window).on('load', function () {
     'overflow': 'visible'
     });
 });
-
- 
-
-   
-
 
 
 
