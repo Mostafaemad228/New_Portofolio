@@ -15,8 +15,9 @@ let Personal_Btn = document.querySelector('.PersonalBtn');
 let text_container = document.querySelector('.text-container');
 let personalData = document.querySelector('.personalData');
 let Wave = document.querySelector('.waving-hand');
-let breaf_Overlay = document.querySelector('.breaf_Overlay');
 let My_breaf = document.querySelector('.My_breaf');
+let breaf_Overlay = document.querySelector('.breaf_Overlay');
+let developer_breaf = document.querySelector('.developer_breaf');
 let Close_Breaf = document.querySelector('.Close_Breaf');
 let my_song = document.querySelector('#my-song');
 let music_img = document.querySelector(".music_img");
@@ -56,14 +57,28 @@ navlink.forEach(el => {
 // ! ////////////////close And close beaf Div/////////////////////
 //* open breaf div
 Wave.addEventListener("click", function () {
-  My_breaf.style.display="block"
-  My_breaf.style.transition = "all 0.5s ease-in-out";
+  breaf_Overlay.style.display = "block"
+  developer_breaf.style.display = "block"
+  developer_breaf.style.transition = "all 0.5s ease-in-out";
 });
 
 //* close breaf div
 Close_Breaf.addEventListener("click", function () {
-  My_breaf.style.display = "none";
+  developer_breaf.style.display = 'none'; 
+    breaf_Overlay.style.display = "none"
+
 });
+
+
+breaf_Overlay.addEventListener('click', (event) => {
+  if (!developer_breaf.contains(event.target)) {
+    developer_breaf.style.display = 'none';
+      breaf_Overlay.style.display = "none"
+
+  }
+});
+
+
 
 
 // ! ////////////////////// chang my photos    ///////////////////////////
@@ -134,6 +149,14 @@ music_img.onclick = function (e) {
 toggle_style_switcher.addEventListener("click", () => {
   style_switcher.classList.toggle("open_controls");
 });
+
+body.addEventListener('click', (event) => {
+  if (!toggle_style_switcher.contains(event.target) && !style_switcher.contains(event.target)) {
+    style_switcher.classList.remove("open_controls");
+  }
+  
+});
+
 
 
 // ! //////////////////  dark mood system ///////////////////////////////
@@ -331,7 +354,7 @@ function displayProjectsItems() {
   projects_container.innerHTML = ``
   for (let i = 0; i < projects_data.length; i++) {
     projects_container.innerHTML +=`
-                  <div class="col-lg-4 p-3 mt-5 mb-3 text-center " data-aos="fade-in" data-aos-delay="${dur+=200}" data-aos-duration="1400" >
+                  <div class="col-lg-4 p-3 mt-5 mb-3 text-center mb-5 " data-aos="fade-in" data-aos-delay="${dur+=200}" data-aos-duration="1400" >
                          <h3 class="Project_num"> ${c++} </h3>
                          <div class="col-lg-12 p-0  project  ">
                             <div class="Project_inner shadow ">

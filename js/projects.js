@@ -124,12 +124,12 @@ function displayAllProjectsItems() {
                         </div>
                         
                         <div class="ml-auto projectslinks">
-                            <a href="${all_projects_data[i].project_demo_link}" target="_blank">
+                            <a href="${all_projects_data[i].project_demo_link}" target="_blank"  tabindex="0" data-toggle="tooltip" title="demo">
                                 <button class="btn btn-transparent text-light">
                                     <img src="images/projects/All_icons/icons8-link-100.png"  class="img-fluid project_link " alt=""> 
                                 </button>
                             </a>
-                           <a href="${all_projects_data[i].project_code_link}" target="_blank">
+                           <a href="${all_projects_data[i].project_code_link}" target="_blank" tabindex="0" data-toggle="tooltip" title="github">
                                 <button class="btn btn-transparent text-light">
                                     <img src="images/projects/All_icons/icons8-github-100.png"  class="img-fluid project_link " alt=""> 
                                 </button>
@@ -146,3 +146,16 @@ function displayAllProjectsItems() {
 }
 
 displayAllProjectsItems();
+
+
+
+
+
+
+
+
+
+
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})

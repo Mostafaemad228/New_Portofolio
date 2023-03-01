@@ -56,9 +56,9 @@
         <i class=" icon fa fa-cog fa-spin"></i>
     </div>
 
-    <img src="images/Controls/music_on.png" class="img-fluid music_img" alt="">
+    <img style="cursor:pointer;" src="images/Controls/music_on.png" class="img-fluid music_img" alt="">
     <p>click to on or off the click music effect</p>
-    <img src="images/Controls/moon.png" class="img-fluid darkmood_img" alt="">
+    <img style="cursor:pointer;" src="images/Controls/moon.png" class="img-fluid darkmood_img" alt="">
     <p>click to  toggle between dark and ligt moods</p>
   
 </div>
@@ -68,26 +68,25 @@
 
 
 <!--  -->
-<div class="My_breaf mt-5" style="display: none;">
-    <div class="container-fluid">
+<div class="My_breaf mt-5" >
+    <div class="container-fluid ">
          <div class="row">
-            <div class="col-lg-12 p-5  breaf_Overlay">
-                <div class="col-lg-9  shadow  m-auto p-0 m-0   developer_breaf">
+            <div  class="col-lg-12 p-5  breaf_Overlay" style="display: none;" >
+                <div class="col-lg-9  shadow  m-auto p-0 m-0   developer_breaf" style="display: none;" >
                     <!-- ////////////////// header  //////////////// -->
-                    <div class="d-flex justify-content-between White_head  p-2 m-0 ">
+                    <div class="d-flex align-items-center justify-content-between White_head  p-2 m-0 ">
                         <div class="circles">
-                            <span class="ml-1"> &nbsp; &nbsp;  </span>
-                            <span class="ml-1"> &nbsp; &nbsp;  </span>
-                            <span class="ml-1"> &nbsp; &nbsp;  </span>
-                            <span class="ml-1"> &nbsp; &nbsp;  </span>
+                            <img src="images/breaf/close_mac.png" class="img-fluid" width="20px" height="20px" alt="">
+                            <img src="images/breaf/min_mac.png" class="img-fluid" width="20px" height="20px" alt="">
+                            <img src="images/breaf/min2_mac.png" class="img-fluid" width="20px" height="20px" alt="">
                         </div>
 
-                        <div class=""> 
+                        <div class="mt-1"> 
                             <h5>About Me</h5>    
                         </div>
 
                         <div class="p-1 Close_Breaf">
-                            <img src="images/close.png" width="30px" height="30px" alt="">
+                            <img style="cursor: pointer;" src="images/breaf/close.png" width="20px" height="20px" alt="">
                         </div>
                     </div>
                     <!-- ////////////////// body  //////////////// -->
@@ -121,7 +120,7 @@
                         
                         
                         <div class="Line">
-                            <h5 class="Describe"> > Mostafa.currentLocation</h5>
+                            <h5 class="Describe"> > Mostafa.Skills</h5>
                             <p class="Answer">[ "Html" , "css" , "Js" ,"bootstrap" , "Es6" , "sass" , "Json & Api" , "react.js" , "Redux" ,"GitHub"   ] ;</p>
                         </div>
 
@@ -348,11 +347,11 @@
 <section class="timeline" id="timeline">
     <div class="container">
         
-        <div class="container" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1000">
+        <div class="container " data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1000">
                 <div class="row mt-5">
                     <div class=" text-center col-lg-12  ">
                         <div class="col-lg-9 m-auto  title-Text">
-                            <h2 > My Story
+                            <h2 class="mt-5" > My Story
                             <img src="images/story_3d.png" class="img-fluid" width="100px" height="100px" alt="">
                             </h2>
                             <p class=" m-auto w-75 text-center">“ my Education and experience in work  ”</p>
@@ -453,7 +452,7 @@
             <div class="container" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1000">
                 <div class="row mt-5">
                     <div class=" text-center col-lg-12  ">
-                        <div class="col-lg-9 m-auto  title-Text">
+                        <div class="col-lg-9 m-auto mt-5 title-Text">
                             <h2 > My Projects    
                             <img src="images/projects_3d (2).png" class="img-fluid" width="70px" height="70px" alt="">
                             </h2>
@@ -571,8 +570,6 @@
                     <img src="images/social_icons/icons8-telegram-app-100.png" class="img-fluid" width="50px" height="50px" alt="">
                 </a>
 
-
-
             </div>
         </div>
       </div>
@@ -586,16 +583,9 @@
 <!-- ???????????????????????????????????! contact  ?????????????????????????????????? -->
 <!-- ???????????????????????????????????! contact  ?????????????????????????????????? -->
 
-
-
     <audio id="my-song">
-      <source src="click.wav" type="audio/wav">
+        <source src="click.wav" type="audio/wav">
     </audio>
-
-
-    
-
-
 
 
 <!-- bootstrap -->
@@ -619,19 +609,14 @@ $(window).on('load', function () {
     });
 });
 
-
+//    $(function () {
+//      $('[data-toggle="tooltip"]').tooltip()
+//     })
 
 AOS.init({
     duration: 3000,
     once: true,
 });
-
-
-
-
-
-
-
 
 
 (function(){
